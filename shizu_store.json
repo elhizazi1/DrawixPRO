@@ -1,0 +1,31 @@
+{
+  "app_name": "DrawixPRO",
+  "package_name": "xyz.siwane.drawixpro",
+  
+  "short_description": "A powerful, floating screen drawing and annotation platform for Android.",
+  "detailed_description": "Drawix Pro is a powerful, floating screen drawing and annotation platform for Android. Designed for professionals, educators, and content creators.\n\n**Key Features:**\n- Floating drawing tools over any app.\n- High-quality annotations.\n- Shizuku integration for advanced capabilities.",
+  
+  "icon_url": "assets/favicon.png",
+  "banner_url": "assets/banner.png",
+  
+  "developer": {
+    "name": "Jama El Hizazi",
+    "account_url": "https://github.com/elhizazi1"
+  },
+  "repo_url": "https://github.com/elhizazi1/DrawixPRO",
+  
+  "screenshots": [
+    "assets/screen/screen1.png",
+    "assets/screen/screen2.png"
+    "assets/screen/screen3.png",
+    "assets/screen/screen4.png"
+  ],
+  
+  "locales": {
+    "ar": {
+      "short_description": "أداة قوية للرسم الحر وإضافة التعليقات التوضيحية على الشاشة العائمة.",
+      "detailed_description": "دراويكس برو (Drawix Pro) هو منصة قوية للرسم على الشاشة وإضافة التعليقات التوضيحية لنظام أندرويد. مصمم خصيصاً للمحترفين، المعلمين، وصناع المحتوى.\n\n**أهم المميزات:**\n- أدوات رسم عائمة فوق أي تطبيق.\n- تعليقات توضيحية عالية الدقة.\n- دعم Shizuku لصلاحيات متقدمة.",
+      "banner_url": "assets/banner_ar.png"
+    }
+  }
+}
