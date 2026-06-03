@@ -5,8 +5,8 @@
   "short_description": "Let your app use system APIs directly with ADB or root privileges.",
   "detailed_description": "Shizuku is a powerful background service that allows normal applications to use system APIs directly with ADB or root privileges.\n\n**Key Features:**\n- No root required (works seamlessly via Wireless Debugging / ADB).\n- Secure and efficient API for developers.\n- Centralized privilege management for supported apps.",
   
-  "icon_url": "https://avatars.githubusercontent.com/u/31599873?v=4",
-  "banner_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+  "icon_url": "https://play-lh.googleusercontent.com/KVK7u_AKusImrcj3i0HanLxIbCzrpIEm7BgmB1TXwZHe2SXAUGHOe6bLISO-x5xR0E0=w480-h960-rw",
+  "banner_url": "https://drawix.siwane.xyz/assets/covers/images.jpeg",
   
   "developer": {
     "name": "RikkaApps",
@@ -15,15 +15,15 @@
   "repo_url": "https://github.com/RikkaApps/Shizuku",
   
   "screenshots": [
-    "https://raw.githubusercontent.com/RikkaApps/Shizuku/master/docs/images/shizuku_main.png",
-    "https://raw.githubusercontent.com/RikkaApps/Shizuku/master/docs/images/shizuku_start.png"
+    "https://play-lh.googleusercontent.com/XxB_t5QecCx0Sf0jBP-kjqGWF_b-2BOX19h-WLxuOcHBovPQz7fc4fVPq_wxnsJiWulm=w1052-h592-rw",
+    "https://play-lh.googleusercontent.com/CthQRWQ22rhJST1gZ099IEwkUaN04jgXOtf8nVbUnfQbkCuhRBrK_iTRvXWl7Wp3gg=w1052-h592-rw"
   ],
   
   "locales": {
     "ar": {
       "short_description": "تطبيق شيزوكو الرسمي. المحطة المركزية لإدارة صلاحيات النظام والروت.",
       "detailed_description": "شيزوكو (Shizuku) هو خدمة خلفية قوية تتيح للتطبيقات العادية استخدام واجهات برمجة تطبيقات النظام (System APIs) مباشرة باستخدام صلاحيات ADB أو الروت.\n\n**أهم المميزات:**\n- لا يتطلب روت (يعمل بسلاسة عبر تصحيح أخطاء اللاسلكي / ADB).\n- واجهة برمجية آمنة وفعالة للمطورين.\n- إدارة مركزية للصلاحيات والوصول للتطبيقات المدعومة.",
-      "banner_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/images.jpeg"
     }
   }
 }
