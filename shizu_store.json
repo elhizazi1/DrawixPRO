@@ -40,49 +40,49 @@
     "fr": {
       "short_description": "Une plateforme puissante de dessin et d'annotation en surimpression sur écran pour Android.",
       "detailed_description": "Drawix Pro est une plateforme puissante de dessin et d'annotation en surimpression sur écran pour Android. Conçu pour les professionnels, les éducateurs et les créateurs de contenu.\n\n**Fonctionnalités principales :**\n- Outils de dessin flottants par-dessus toute application.\n- Annotations de haute qualité.\n- Intégration Shizuku pour des capacités avancées.",
-      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_fr_main.png",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "Jamal El Hizazi",
       "developer_message": "Concevoir des outils intelligents qui donnent aux utilisateurs le contrôle total de leurs appareils. Merci de votre confiance et de votre soutien !"
     },
     "es": {
       "short_description": "Una potente plataforma de dibujo y anotación en pantalla flotante para Android.",
       "detailed_description": "Drawix Pro es una potente plataforma de dibujo y anotación en pantalla flotante para Android. Diseñado para profesionales, educadores y creadores de contenido.\n\n**Características principales:**\n- Herramientas de dibujo flotantes sobre cualquier aplicación.\n- Anotaciones de alta calidad.\n- Integración con Shizuku para capacidades avanzadas.",
-      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_es_main.png",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "Jamal El Hizazi",
       "developer_message": "Creando herramientas inteligentes que dan a los usuarios control total sobre sus dispositivos. ¡Gracias por tu confianza y apoyo!"
     },
     "pt": {
       "short_description": "Uma poderosa plataforma de desenho e anotação em tela flutuante para Android.",
       "detailed_description": "Drawix Pro é uma poderosa plataforma de desenho e anotação em tela flutuante para Android. Projetado para profissionais, educadores e criadores de conteúdo.\n\n**Principais funcionalidades:**\n- Ferramentas de desenho flutuantes sobre qualquer aplicativo.\n- Anotações de alta qualidade.\n- Integração com Shizuku para recursos avançados.",
-      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_pt_main.png",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "Jamal El Hizazi",
       "developer_message": "Criando ferramentas inteligentes que dão aos usuários controle total sobre seus dispositivos. Obrigado pela sua confiança e apoio!"
     },
     "ru": {
       "short_description": "Мощная платформа для рисования и аннотаций поверх экрана на Android.",
       "detailed_description": "Drawix Pro — это мощная платформа для рисования и создания аннотаций поверх экрана на Android. Разработана для профессионалов, преподавателей и создателей контента.\n\n**Ключевые возможности:**\n- Плавающие инструменты рисования поверх любого приложения.\n- Высококачественные аннотации.\n- Интеграция с Shizuku для расширенных возможностей.",
-      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_ru_main.png",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "Джамал Эль Хизази",
       "developer_message": "Создаём умные инструменты, дающие пользователям полный контроль над их устройствами. Спасибо за доверие и поддержку!"
     },
     "hi": {
       "short_description": "Android के लिए एक शक्तिशाली, फ़्लोटिंग स्क्रीन ड्राइंग और एनोटेशन प्लेटफ़ॉर्म।",
       "detailed_description": "Drawix Pro एक शक्तिशाली, फ़्लोटिंग स्क्रीन ड्राइंग और एनोटेशन प्लेटफ़ॉर्म है। पेशेवरों, शिक्षकों और सामग्री निर्माताओं के लिए डिज़ाइन किया गया।\n\n**मुख्य विशेषताएं:**\n- किसी भी ऐप के ऊपर फ़्लोटिंग ड्राइंग टूल।\n- उच्च-गुणवत्ता वाली एनोटेशन।\n- उन्नत क्षमताओं के लिए Shizuku एकीकरण।",
-      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_hi_main.png",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "जमाल एल हिज़ाज़ी",
       "developer_message": "ऐसे स्मार्ट उपकरण तैयार करना जो उपयोगकर्ताओं को उनके उपकरणों पर पूर्ण नियंत्रण दें। आपके विश्वास और समर्थन के लिए धन्यवाद!"
     },
     "zh": {
       "short_description": "适用于 Android 的强大浮动屏幕绘图与标注平台。",
       "detailed_description": "Drawix Pro 是一款强大的 Android 浮动屏幕绘图与标注平台。专为专业人士、教育工作者和内容创作者设计。\n\n**主要功能：**\n- 浮动绘图工具，可覆盖任何应用。\n- 高质量的标注。\n- 集成 Shizuku，提供高级功能。",
-      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_zh_main.png",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "贾马尔·埃尔·希扎齐",
       "developer_message": "打造让用户完全掌控设备的智能工具。感谢您的信任与支持！"
     },
     "ja": {
       "short_description": "Android向けの強力なフローティングスクリーン描画・注釈プラットフォーム。",
       "detailed_description": "Drawix Proは、Android向けの強力なフローティングスクリーン描画・注釈プラットフォームです。プロフェッショナル、教育者、コンテンツクリエイター向けに設計されています。\n\n**主な機能:**\n- 任意のアプリの上に表示されるフローティング描画ツール。\n- 高品質な注釈。\n- 高度な機能のためのShizuku統合。",
-      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_ja_main.png",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "ジャマル・エル・ヒザジ",
       "developer_message": "ユーザーがデバイスを完全に制御できるスマートツールを開発しています。信頼とサポートに感謝します！"
     }
