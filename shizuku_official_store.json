@@ -24,6 +24,48 @@
       "developer_name": "تطبيقات ريكا",
       "developer_message": "تمكين المطورين والمستخدمين المتقدمين من إطلاق الإمكانات الكاملة لأندرويد."
     },
+    "fr": {
+      "short_description": "Laissez votre application utiliser les API système directement avec ADB ou les privilèges root.",
+      "detailed_description": "Shizuku est un puissant service d'arrière-plan qui permet aux applications normales d'utiliser directement les API système avec les privilèges ADB ou root.\n\n**Fonctionnalités principales :**\n- Pas besoin de root (fonctionne parfaitement via le débogage sans fil / ADB).\n- API sécurisée et efficace pour les développeurs.\n- Gestion centralisée des privilèges pour les applications prises en charge.",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/images.jpeg",
+      "developer_name": "RikkaApps",
+      "developer_message": "Permettre aux développeurs et aux utilisateurs avancés de libérer tout le potentiel d'Android."
+    },
+    "es": {
+      "short_description": "Permite que tu aplicación use las API del sistema directamente con ADB o permisos de root.",
+      "detailed_description": "Shizuku es un potente servicio en segundo plano que permite que las aplicaciones normales usen las API del sistema directamente con permisos ADB o root.\n\n**Características principales:**\n- No requiere root (funciona perfectamente mediante depuración inalámbrica / ADB).\n- API segura y eficiente para desarrolladores.\n- Gestión centralizada de privilegios para las aplicaciones compatibles.",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/images.jpeg",
+      "developer_name": "RikkaApps",
+      "developer_message": "Capacitar a desarrolladores y usuarios avanzados para desbloquear todo el potencial de Android."
+    },
+    "pt": {
+      "short_description": "Permita que seu aplicativo use as APIs do sistema diretamente com privilégios ADB ou root.",
+      "detailed_description": "Shizuku é um poderoso serviço em segundo plano que permite que aplicativos comuns usem APIs do sistema diretamente com privilégios ADB ou root.\n\n**Principais funcionalidades:**\n- Não requer root (funciona perfeitamente via Depuração sem fio / ADB).\n- API segura e eficiente para desenvolvedores.\n- Gerenciamento centralizado de privilégios para aplicativos compatíveis.",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/images.jpeg",
+      "developer_name": "RikkaApps",
+      "developer_message": "Capacitando desenvolvedores e usuários avançados a desbloquear todo o potencial do Android."
+    },
+    "ru": {
+      "short_description": "Позвольте вашему приложению использовать системные API напрямую с ADB или root-правами.",
+      "detailed_description": "Shizuku — это мощный фоновый сервис, позволяющий обычным приложениям использовать системные API напрямую с ADB или root-правами.\n\n**Ключевые возможности:**\n- Не требует root (работает без проблем через беспроводную отладку / ADB).\n- Безопасный и эффективный API для разработчиков.\n- Централизованное управление привилегиями для поддерживаемых приложений.",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/images.jpeg",
+      "developer_name": "RikkaApps",
+      "developer_message": "Даём разработчикам и продвинутым пользователям возможность раскрыть весь потенциал Android."
+    },
+    "hi": {
+      "short_description": "अपने ऐप को ADB या रूट विशेषाधिकारों के साथ सीधे सिस्टम API का उपयोग करने दें।",
+      "detailed_description": "Shizuku एक शक्तिशाली पृष्ठभूमि सेवा है जो सामान्य अनुप्रयोगों को ADB या रूट विशेषाधिकारों के साथ सीधे सिस्टम API का उपयोग करने की अनुमति देती है।\n\n**मुख्य विशेषताएं:**\n- रूट की आवश्यकता नहीं (वायरलेस डिबगिंग / ADB के माध्यम से सहजता से काम करता है)।\n- डेवलपर्स के लिए सुरक्षित और कुशल API।\n- समर्थित ऐप्स के लिए केंद्रीकृत विशेषाधिकार प्रबंधन।",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/images.jpeg",
+      "developer_name": "RikkaApps",
+      "developer_message": "डेवलपर्स और उन्नत उपयोगकर्ताओं को Android की पूर्ण क्षमता को अनलॉक करने के लिए सशक्त बनाना।"
+    },
+    "zh": {
+      "short_description": "让您的应用通过 ADB 或 Root 权限直接使用系统 API。",
+      "detailed_description": "Shizuku 是一款强大的后台服务，允许普通应用通过 ADB 或 Root 权限直接使用系统 API。\n\n**主要功能：**\n- 无需 Root（可通过无线调试/ADB 无缝运行）。\n- 为开发者提供安全高效的 API。\n- 对支持的应用进行集中权限管理。",
+      "banner_url": "https://drawix.siwane.xyz/assets/covers/images.jpeg",
+      "developer_name": "RikkaApps",
+      "developer_message": "赋能开发者和高级用户，释放 Android 的全部潜力。"
+    },
     "ja": {
       "short_description": "Shizuku公式アプリ。ADBまたはroot権限でシステムAPIを直接使用可能にする。",
       "detailed_description": "Shizukuは、通常のアプリがADBまたはroot権限を使ってシステムAPIを直接利用できる強力なバックグラウンドサービスです。\n\n**主な機能:**\n- root不要（ワイヤレスデバッグ/ADBでシームレスに動作）\n- 開発者向けの安全で効率的なAPI\n- 対応アプリの権限を一元管理",
