@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_draw_headline">Desenhe sobre a tela</string>
+  <string name="ui_no_handler">Nenhum aplicativo pode abrir esta ação.</string>
+  <string name="ui_manage">Gerenciar</string>
+  <string name="ui_storage_desc">No Android 10 ou posterior, novas capturas não exigem acesso amplo às fotos. Permita o acesso para incluir capturas antigas.</string>
+  <string name="ui_battery_desc">Opcional: revise a bateria se o sistema parar as ferramentas flutuantes. A isenção não garante serviço contínuo.</string>
+  <string name="ui_device_note">Em alguns aparelhos, revise as restrições de bateria e as permissões. Falhas de instalação precisam da mensagem exata e são independentes da permissão de sobreposição.</string>
+  <string name="ui_dynamic_color">Cores do papel de parede</string>
+  <string name="ui_dynamic_desc">Usar as cores do sistema no Android 12 ou posterior.</string>
+  <string name="ui_shizuku_desc">Capturar por um serviço de usuário Shizuku autorizado. O Shizuku deve estar em execução.</string>
+  <string name="ui_root_desc">Capturar com acesso Root concedido explicitamente.</string>
+  <string name="ui_lsposed_desc">Exige o módulo ativado no LSPosed. A compatibilidade varia conforme o aparelho e o Android.</string>
+  <string name="ui_ready">Pronto</string>
+  <string name="ui_setup_required">Configuração necessária</string>
+  <string name="ui_hide_confirm">O ícone será ocultado. Abra o Drawix Pro pela notificação ativa ou pelo bloco de configurações rápidas. Adicione o bloco antes de ocultar o ícone.</string>
+  <string name="ui_refresh">Atualizar</string>
+  <string name="ui_older_images">Acessar imagens antigas</string>
+  <string name="ui_gallery_error">Não foi possível acessar as capturas. Revise as permissões e tente novamente.</string>
+  <string name="ui_close">Fechar</string>
+  <string name="ui_capture_timeout">O tempo de captura esgotou. Verifique o mecanismo selecionado e tente novamente.</string>
+  <string name="ui_capture_cancelled">Captura de tela cancelada.</string>
+  <string name="ui_capturing">Capturando tela</string>
+</resources>

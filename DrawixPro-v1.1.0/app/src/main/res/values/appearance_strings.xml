@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appearance_mode">المظهر</string>
+    <string name="appearance_system">النظام</string>
+    <string name="appearance_light">فاتح</string>
+    <string name="appearance_dark">داكن</string>
+    <string name="appearance_accent">اللون الرئيسي</string>
+    <string name="appearance_custom">لون مخصص</string>
+    <string name="appearance_hex">رمز اللون #RRGGBB</string>
+    <string name="appearance_hue">درجة اللون</string>
+    <string name="appearance_saturation">التشبع</string>
+    <string name="appearance_brightness">السطوع</string>
+</resources>

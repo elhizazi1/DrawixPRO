@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_restart">The loaded module differs from this app update. Reboot the phone after updating, then retry.</string>
+    <string name="capture_lsposed_hosts_missing">No reply from Android or System UI. Enable the module for Android or System UI and reboot. Copy the diagnostic report below if needed.</string>
+    <string name="lsposed_manager_help">The manager may be embedded. Opening it uses an existing root authorization; you can also use the framework notification or the action button in your root manager.</string>
+    <string name="lsposed_copy_report">Copy LSPosed report</string>
+    <string name="lsposed_open_with_root">Open embedded manager via Root</string>
+</resources>

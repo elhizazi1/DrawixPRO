@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="overlay_customize">مظهر النوافذ العائمة</string>
+  <string name="overlay_live">تُطبّق التغييرات فورًا على النوافذ العائمة أثناء عملها.</string>
+  <string name="overlay_shape">شكل الزر</string>
+  <string name="overlay_circle">دائري</string>
+  <string name="overlay_rounded">مستدير</string>
+  <string name="overlay_soft_square">مربع ناعم</string>
+  <string name="overlay_icon">أيقونة الزر</string>
+  <string name="overlay_brush">فرشاة</string>
+  <string name="overlay_camera">كاميرا</string>
+  <string name="overlay_pointer">مؤشر</string>
+  <string name="overlay_icon_hint">يتغير شكل الأيقونة فقط؛ النقر يفتح أدوات الرسم كما هو.</string>
+  <string name="overlay_follow_accent">اتباع لون التطبيق</string>
+  <string name="overlay_follow_hint">استخدم لون التطبيق أو اختر لونًا مستقلًا للزر.</string>
+  <string name="overlay_color">لون الزر</string>
+  <string name="overlay_panel">الصندوق العائم</string>
+  <string name="overlay_panel_opacity">شفافية خلفية الصندوق</string>
+  <string name="overlay_roundness">استدارة الصندوق</string>
+  <string name="overlay_border">حدود الصندوق</string>
+  <string name="overlay_border_hint">حدود خفيفة تُبرز الصندوق فوق الخلفية.</string>
+  <string name="overlay_reset">إعادة ضبط مظهر النوافذ</string>
+</resources>

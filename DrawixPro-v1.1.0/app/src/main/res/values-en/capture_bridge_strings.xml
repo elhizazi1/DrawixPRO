@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_bridge_missing">The LSPosed system bridge is not connected. Enable Drawix Pro and select both the app and Android (System Framework) in the module scope, then reboot after updating.</string>
+    <string name="capture_lsposed_failed">LSPosed capture failed. Check the DrawixPro entries in the LSPosed log for the framework error.</string>
+    <string name="appearance_turquoise">Turquoise</string>
+    <string name="appearance_sapphire">Sapphire blue</string>
+</resources>

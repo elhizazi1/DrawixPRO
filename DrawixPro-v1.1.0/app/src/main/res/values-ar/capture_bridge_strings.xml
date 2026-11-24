@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_bridge_missing">جزء LSPosed في النظام غير متصل. فعّل Drawix Pro وحدد التطبيق وAndroid (إطار النظام) في نطاق الموديول، ثم أعد تشغيل الهاتف بعد التحديث.</string>
+    <string name="capture_lsposed_failed">تعذّر الالتقاط عبر LSPosed. راجع سجل DrawixPro في LSPosed لمعرفة خطأ إطار النظام.</string>
+    <string name="appearance_turquoise">فيروزي</string>
+    <string name="appearance_sapphire">أزرق ياقوتي</string>
+</resources>

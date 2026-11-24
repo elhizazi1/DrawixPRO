@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_restart">O módulo carregado difere desta atualização. Reinicie o telefone e tente novamente.</string>
+    <string name="capture_lsposed_hosts_missing">Sem resposta de Android ou System UI. Ative o módulo para Android ou System UI e reinicie. Pode copiar o relatório abaixo.</string>
+    <string name="lsposed_manager_help">O gerenciador pode estar integrado. A abertura usa autorização root existente. Também é possível usar a notificação do framework ou o botão Ação do gerenciador root.</string>
+    <string name="lsposed_copy_report">Copiar relatório LSPosed</string>
+    <string name="lsposed_open_with_root">Abrir gerenciador integrado via Root</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_draw_headline">Draw on any screen</string>
+  <string name="ui_no_handler">No application can open this action.</string>
+  <string name="ui_manage">Manage</string>
+  <string name="ui_storage_desc">New screenshots are saved without broad media access on Android 10 and later. Allow access only to include older screenshots.</string>
+  <string name="ui_battery_desc">Optional: review battery settings if the system stops the floating tools. Exemption cannot guarantee uninterrupted service.</string>
+  <string name="ui_device_note">On some devices, review app battery restrictions and permission settings. Installation failures need their exact error message; they are separate from overlay permissions.</string>
+  <string name="ui_dynamic_color">Wallpaper colors</string>
+  <string name="ui_dynamic_desc">Use your system color palette on Android 12 and later.</string>
+  <string name="ui_shizuku_desc">Capture screenshots through an authorized Shizuku user service. Shizuku must be running.</string>
+  <string name="ui_root_desc">Capture screenshots using explicitly granted root access.</string>
+  <string name="ui_lsposed_desc">Requires the module to be enabled in LSPosed. Device and Android compatibility vary.</string>
+  <string name="ui_ready">Ready</string>
+  <string name="ui_setup_required">Setup required</string>
+  <string name="ui_hide_confirm">The launcher icon will be hidden. You can reopen Drawix Pro from its active notification or Quick Settings tile. Add the tile before hiding the icon.</string>
+  <string name="ui_refresh">Refresh</string>
+  <string name="ui_older_images">Access older images</string>
+  <string name="ui_gallery_error">Could not access the screenshots. Review permissions and try again.</string>
+  <string name="ui_close">Close</string>
+  <string name="ui_capture_timeout">Screenshot timed out. Check the selected engine and try again.</string>
+<string name="ui_capture_cancelled">Screen capture was cancelled.</string>
+<string name="ui_capturing">Capturing screenshot</string>
+</resources>

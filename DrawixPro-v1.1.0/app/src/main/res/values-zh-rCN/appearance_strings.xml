@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appearance_mode">外观</string>
+    <string name="appearance_system">跟随系统</string>
+    <string name="appearance_light">浅色</string>
+    <string name="appearance_dark">深色</string>
+    <string name="appearance_accent">强调色</string>
+    <string name="appearance_custom">自定义颜色</string>
+    <string name="appearance_hex">十六进制颜色 #RRGGBB</string>
+    <string name="appearance_hue">色相</string>
+    <string name="appearance_saturation">饱和度</string>
+    <string name="appearance_brightness">亮度</string>
+</resources>

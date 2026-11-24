@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_draw_headline">在屏幕上绘画</string>
+  <string name="ui_no_handler">没有应用可以打开此操作。</string>
+  <string name="ui_manage">管理</string>
+  <string name="ui_storage_desc">Android 10 及更高版本保存新截图无需获取全部照片权限。仅在查看旧截图时授权。</string>
+  <string name="ui_battery_desc">可选：如果系统停止悬浮工具，请检查电池设置。豁免并不能保证服务持续运行。</string>
+  <string name="ui_device_note">某些设备需要检查电池限制和应用权限。安装失败需要具体错误信息，与悬浮窗权限是不同的问题。</string>
+  <string name="ui_dynamic_color">壁纸颜色</string>
+  <string name="ui_dynamic_desc">在 Android 12 及更高版本上使用系统配色。</string>
+  <string name="ui_shizuku_desc">通过已授权的 Shizuku 用户服务截图。Shizuku 必须正在运行。</string>
+  <string name="ui_root_desc">使用明确授予的 Root 权限截图。</string>
+  <string name="ui_lsposed_desc">需要在 LSPosed 中启用模块。兼容性取决于设备和 Android 版本。</string>
+  <string name="ui_ready">已就绪</string>
+  <string name="ui_setup_required">需要设置</string>
+  <string name="ui_hide_confirm">启动器图标将被隐藏。可通过活动通知或快捷设置磁贴打开 Drawix Pro。隐藏前请先添加磁贴。</string>
+  <string name="ui_refresh">刷新</string>
+  <string name="ui_older_images">访问旧图片</string>
+  <string name="ui_gallery_error">无法访问截图。请检查权限后重试。</string>
+  <string name="ui_close">关闭</string>
+  <string name="ui_capture_timeout">截图超时。请检查所选引擎后重试。</string>
+  <string name="ui_capture_cancelled">已取消屏幕截图。</string>
+  <string name="ui_capturing">正在截图</string>
+</resources>

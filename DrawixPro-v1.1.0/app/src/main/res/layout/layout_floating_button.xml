@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp"> <ImageView
+        android:id="@+id/btn_main_fab"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_floating_button"
+        android:padding="11dp"
+        android:elevation="0dp"
+        android:translationZ="0dp"
+        android:stateListAnimator="@null"
+        android:src="@drawable/ic_brush_2"
+        app:tint="?attr/colorOnPrimary"
+        android:importantForAccessibility="no" />
+        
+</FrameLayout>

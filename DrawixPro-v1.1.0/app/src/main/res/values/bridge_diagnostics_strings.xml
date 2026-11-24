@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_restart">الكود المحمّل للموديول يختلف عن نسخة التطبيق الحالية. أعد تشغيل الهاتف بعد التحديث ثم أعد المحاولة.</string>
+    <string name="capture_lsposed_hosts_missing">لم يصل رد من إطار النظام أو System UI. فعّل الموديول وحدد Android أو System UI ضمن نطاقه، ثم أعد تشغيل الهاتف. يمكنك نسخ تقرير الفحص أدناه.</string>
+    <string name="lsposed_manager_help">المدير قد يكون مضمّنًا في النظام. يستخدم فتحه تفويض Root الموجود مسبقًا؛ ويمكن فتحه أيضًا من إشعار الإطار أو زر الإجراء في مدير الروت.</string>
+    <string name="lsposed_copy_report">نسخ تقرير LSPosed</string>
+    <string name="lsposed_open_with_root">فتح المدير المضمّن عبر Root</string>
+</resources>

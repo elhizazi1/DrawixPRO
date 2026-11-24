@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_bridge_missing">El puente del sistema LSPosed no está conectado. Active Drawix Pro y seleccione la aplicación y Android (marco del sistema) en el ámbito del módulo. Reinicie tras actualizar.</string>
+    <string name="capture_lsposed_failed">Falló la captura LSPosed. Consulte las entradas DrawixPro del registro de LSPosed.</string>
+    <string name="appearance_turquoise">Turquesa</string>
+    <string name="appearance_sapphire">Azul zafiro</string>
+</resources>

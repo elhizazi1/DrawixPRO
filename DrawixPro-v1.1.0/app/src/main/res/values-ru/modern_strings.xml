@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_draw_headline">Рисуйте поверх экрана</string>
+  <string name="ui_no_handler">Нет приложения для этого действия.</string>
+  <string name="ui_manage">Управление</string>
+  <string name="ui_storage_desc">На Android 10 и новее новые снимки не требуют общего доступа к фото. Разрешите доступ, чтобы видеть старые снимки.</string>
+  <string name="ui_battery_desc">Необязательно: проверьте настройки батареи, если система останавливает плавающие инструменты. Исключение не гарантирует непрерывную работу.</string>
+  <string name="ui_device_note">На некоторых устройствах проверьте ограничения батареи и разрешения. Для ошибки установки нужен её точный текст; разрешение наложения к ней не относится.</string>
+  <string name="ui_dynamic_color">Цвета обоев</string>
+  <string name="ui_dynamic_desc">Использовать системные цвета на Android 12 и новее.</string>
+  <string name="ui_shizuku_desc">Снимки через авторизованную пользовательскую службу Shizuku. Shizuku должен быть запущен.</string>
+  <string name="ui_root_desc">Снимки с явно предоставленным доступом Root.</string>
+  <string name="ui_lsposed_desc">Модуль должен быть включён в LSPosed. Совместимость зависит от устройства и версии Android.</string>
+  <string name="ui_ready">Готово</string>
+  <string name="ui_setup_required">Нужна настройка</string>
+  <string name="ui_hide_confirm">Значок будет скрыт. Откройте Drawix Pro из активного уведомления или плитки быстрых настроек. Добавьте плитку до скрытия значка.</string>
+  <string name="ui_refresh">Обновить</string>
+  <string name="ui_older_images">Доступ к старым снимкам</string>
+  <string name="ui_gallery_error">Нет доступа к снимкам. Проверьте разрешения и повторите попытку.</string>
+  <string name="ui_close">Закрыть</string>
+  <string name="ui_capture_timeout">Истекло время ожидания снимка. Проверьте выбранный движок и повторите попытку.</string>
+  <string name="ui_capture_cancelled">Снимок экрана отменён.</string>
+  <string name="ui_capturing">Создание снимка</string>
+</resources>

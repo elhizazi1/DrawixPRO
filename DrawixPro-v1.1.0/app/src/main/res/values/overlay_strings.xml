@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="overlay_customize">Floating appearance</string>
+  <string name="overlay_live">Changes apply to the running overlays immediately.</string>
+  <string name="overlay_shape">Button shape</string>
+  <string name="overlay_circle">Circle</string>
+  <string name="overlay_rounded">Rounded</string>
+  <string name="overlay_soft_square">Soft square</string>
+  <string name="overlay_icon">Button icon</string>
+  <string name="overlay_brush">Brush</string>
+  <string name="overlay_camera">Camera</string>
+  <string name="overlay_pointer">Pointer</string>
+  <string name="overlay_icon_hint">The icon changes its appearance; tapping still opens the drawing tools.</string>
+  <string name="overlay_follow_accent">Follow app accent</string>
+  <string name="overlay_follow_hint">Use the app accent or choose an independent button color.</string>
+  <string name="overlay_color">Button color</string>
+  <string name="overlay_panel">Floating panel</string>
+  <string name="overlay_panel_opacity">Panel background opacity</string>
+  <string name="overlay_roundness">Panel roundness</string>
+  <string name="overlay_border">Panel outline</string>
+  <string name="overlay_border_hint">A subtle outline separates the panel from its background.</string>
+  <string name="overlay_reset">Reset floating appearance</string>
+</resources>

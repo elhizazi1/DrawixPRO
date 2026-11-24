@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_style_title">外观与个性化</string>
+  <string name="ui_style_subtitle">颜色、主题与语言</string>
+  <string name="ui_drawing_subtitle">工具、大小与保存</string>
+  <string name="ui_engine_subtitle">选择截图引擎并检查实际状态</string>
+  <string name="ui_community_subtitle">导入语言或创建翻译</string>
+  <string name="ui_engines_title">截图引擎</string>
+  <string name="ui_selected">已选择</string>
+  <string name="ui_not_running">未运行</string>
+  <string name="ui_authorize">需要授权</string>
+  <string name="ui_checking">正在检查 Root 授权…</string>
+  <string name="ui_module_enabled">模块已启用</string>
+  <string name="ui_root_unknown">尚未检查</string>
+  <string name="ui_engine_kept">仍保留之前的引擎。启用此引擎前，需要先完成授权或设置。</string>
+  <string name="ui_try_again">重试</string>
+  <string name="ui_open_manager">打开管理器</string>
+  <string name="ui_standard_desc">在 Android 11 及更高版本使用无障碍截图，或通过系统同意对话框截图。</string>
+  <string name="ui_home_subtitle">随手绘画，清晰讲解，让想法跃然屏上。</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_standard_setup">Enable the Drawix Pro accessibility service to capture the current full screen without choosing an app. Then return and select Standard again.</string>
+</resources>

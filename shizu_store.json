@@ -1,9 +1,9 @@
 {
-  "app_name": "DrawixPRO",
-  "package_name": "xyz.siwane.drawixpro",
+  "app_name": "Drawix Pro",
+  "package_name": "xyz.siwane.drawix.pro",
   "category": "Design",
-  "short_description": "A powerful, floating screen drawing and annotation platform for Android.",
-  "detailed_description": "Drawix Pro is a powerful, floating screen drawing and annotation platform for Android. Designed for professionals, educators, and content creators.\n\n**Key Features:**\n- Floating drawing tools over any app.\n- High-quality annotations.\n- Shizuku integration for advanced capabilities.",
+  "short_description": "Floating drawing, four screenshot engines and a customizable Material 3 interface.",
+  "detailed_description": "Drawix Pro 1.1.0 adds drawing tools over Android apps with a Material 3 interface.\n\n• Brush, shapes, arrows, text, laser pointer and mosaic masking.\n• Standard, Shizuku, Root and LSPosed screenshot engines.\n• System, light and dark appearance with wallpaper or custom accent colors.\n• Live floating-button and panel customization: shape, icon, color, opacity, corners and outline.\n• Gallery previews, full-image viewing, zoom, share and delete.\n• Local screenshots and settings; no developer-operated upload service.\n\nAndroid 7.0+; targets Android 17. Standard accessibility screenshots require Android 11+; older supported devices use system capture consent. Privileged engines need their respective setup. Protected content may remain unavailable. After updating an LSPosed module, restart the device to load the updated code.",
   "developer_message": "Crafting smart tools that give users full control over their devices. Thank you for your trust and support!",
   "icon_url": "https://drawix.siwane.xyz/assets/covers/icon_pro.png",
   "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
@@ -34,64 +34,64 @@
   "locales": {
     "ar": {
       "category": "تصميم",
-      "short_description": "أداة قوية للرسم الحر وإضافة التعليقات التوضيحية على الشاشة العائمة.",
-      "detailed_description": "دراويكس برو (Drawix Pro) هو منصة قوية للرسم على الشاشة وإضافة التعليقات التوضيحية لنظام أندرويد. مصمم خصيصاً للمحترفين، المعلمين، وصناع المحتوى.\n\n**أهم المميزات:**\n- أدوات رسم عائمة فوق أي تطبيق.\n- تعليقات توضيحية عالية الدقة.\n- دعم Shizuku لصلاحيات متقدمة.",
+      "short_description": "ارسم فوق التطبيقات والتقط الشاشة بأربعة محركات وواجهة Material 3 قابلة للتخصيص.",
+      "detailed_description": "دراويكس برو 1.1.0 يقدّم أدوات رسم عائمة فوق تطبيقات أندرويد.\n\n• فرشاة وأشكال وأسهم ونصوص وليزر وتعتيم شطرنجي.\n• أربعة محركات التقاط: القياسي وShizuku وRoot وLSPosed.\n• مظهر النظام والفاتح والداكن وألوان الخلفية أو لون مخصص.\n• تخصيص مباشر لشكل الزر وأيقونته ولونه وشفافية الصندوق وزواياه وحدوده.\n• معرض محسّن للعرض والتكبير والمشاركة والحذف.\n• حفظ الصور والإعدادات محليًا دون خدمة رفع إلى خوادم المطور.\n\nيدعم Android 7.0 فأحدث ويستهدف Android 17. يتطلب الالتقاط عبر إمكانية الوصول Android 11 فأحدث؛ تستخدم الأجهزة الأقدم نافذة موافقة النظام. تحتاج المحركات المتقدمة إعدادها وصلاحياتها، وقد يبقى المحتوى المحمي غير متاح. أعد تشغيل الجهاز بعد تحديث موديول LSPosed لتحميل الكود الجديد.",
       "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_ar_main.png",
       "developer_name": "جمال الحزازي",
       "developer_message": "أسعى لصناعة أدوات ذكية تمنح المستخدم تحكماً كاملاً في هاتفه. شكراً لدعمكم وثقتكم!"
     },
     "fr": {
       "category": "Design",
-      "short_description": "Une plateforme puissante de dessin et d'annotation en surimpression sur écran pour Android.",
-      "detailed_description": "Drawix Pro est une plateforme puissante de dessin et d'annotation en surimpression sur écran pour Android. Conçu pour les professionnels, les éducateurs et les créateurs de contenu.\n\n**Fonctionnalités principales :**\n- Outils de dessin flottants par-dessus toute application.\n- Annotations de haute qualité.\n- Intégration Shizuku pour des capacités avancées.",
+      "short_description": "Dessin flottant, quatre moteurs de capture et interface Material 3 personnalisable.",
+      "detailed_description": "Drawix Pro 1.1.0 : dessin flottant, formes, flèches, texte, laser et masquage en mosaïque. Quatre moteurs de capture : Standard, Shizuku, Root et LSPosed. Interface Material 3, apparence système/claire/sombre, couleurs personnalisées, réglage immédiat du bouton et du panneau, galerie avec zoom, partage et suppression. Images et réglages locaux. Android 7.0+ ; cible Android 17. Les captures via accessibilité nécessitent Android 11+ ; les versions antérieures utilisent le consentement système. Les moteurs avancés nécessitent leur configuration. Le contenu protégé peut rester inaccessible. Redémarrer après la mise à jour du module LSPosed.",
       "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "Jamal El Hizazi",
       "developer_message": "Concevoir des outils intelligents qui donnent aux utilisateurs le contrôle total de leurs appareils. Merci de votre confiance et de votre soutien !"
     },
     "es": {
       "category": "Diseño",
-      "short_description": "Una potente plataforma de dibujo y anotación en pantalla flotante para Android.",
-      "detailed_description": "Drawix Pro es una potente plataforma de dibujo y anotación en pantalla flotante para Android. Diseñado para profesionales, educadores y creadores de contenido.\n\n**Características principales:**\n- Herramientas de dibujo flotantes sobre cualquier aplicación.\n- Anotaciones de alta calidad.\n- Integración con Shizuku para capacidades avanzadas.",
+      "short_description": "Dibujo flotante, cuatro motores de captura e interfaz Material 3 personalizable.",
+      "detailed_description": "Drawix Pro 1.1.0: dibujo flotante, formas, flechas, texto, láser y máscara de mosaico. Captura mediante Standard, Shizuku, Root o LSPosed. Material 3, modo del sistema/claro/oscuro, colores personalizados, ajustes en vivo del botón y panel, galería con zoom, compartir y eliminar. Imágenes y ajustes locales. Android 7.0+; orientado a Android 17. La captura por accesibilidad requiere Android 11+; las versiones anteriores usan el consentimiento del sistema. Los motores avanzados requieren configuración. El contenido protegido puede seguir sin estar disponible. Reiniciar tras actualizar el módulo LSPosed.",
       "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "Jamal El Hizazi",
       "developer_message": "Creando herramientas inteligentes que dan a los usuarios control total sobre sus dispositivos. ¡Gracias por tu confianza y apoyo!"
     },
     "pt": {
       "category": "Design",
-      "short_description": "Uma poderosa plataforma de desenho e anotação em tela flutuante para Android.",
-      "detailed_description": "Drawix Pro é uma poderosa plataforma de desenho e anotação em tela flutuante para Android. Projetado para profissionais, educadores e criadores de conteúdo.\n\n**Principais funcionalidades:**\n- Ferramentas de desenho flutuantes sobre qualquer aplicativo.\n- Anotações de alta qualidade.\n- Integração com Shizuku para recursos avançados.",
+      "short_description": "Desenho flutuante, quatro motores de captura e interface Material 3 personalizável.",
+      "detailed_description": "Drawix Pro 1.1.0: desenho flutuante, formas, setas, texto, laser e máscara em mosaico. Capturas com Standard, Shizuku, Root ou LSPosed. Material 3, aparência do sistema/clara/escura, cores personalizadas, ajustes ao vivo do botão e painel, galeria com zoom, compartilhamento e exclusão. Imagens e configurações locais. Android 7.0+; direcionado ao Android 17. Capturas por acessibilidade exigem Android 11+; versões anteriores usam o consentimento do sistema. Os motores avançados exigem configuração. Conteúdo protegido pode permanecer indisponível. Reinicie após atualizar o módulo LSPosed.",
       "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "Jamal El Hizazi",
       "developer_message": "Criando ferramentas inteligentes que dão aos usuários controle total sobre seus dispositivos. Obrigado pela sua confiança e apoio!"
     },
     "ru": {
       "category": "Дизайн",
-      "short_description": "Мощная платформа для рисования и аннотаций поверх экрана на Android.",
-      "detailed_description": "Drawix Pro — это мощная платформа для рисования и создания аннотаций поверх экрана на Android. Разработана для профессионалов, преподавателей и создателей контента.\n\n**Ключевые возможности:**\n- Плавающие инструменты рисования поверх любого приложения.\n- Высококачественные аннотации.\n- Интеграция с Shizuku для расширенных возможностей.",
+      "short_description": "Рисование поверх приложений, четыре способа снимка и настраиваемый Material 3.",
+      "detailed_description": "Drawix Pro 1.1.0: плавающее рисование, фигуры, стрелки, текст, лазер и мозаичная маска. Снимки через Standard, Shizuku, Root или LSPosed. Material 3, системная/светлая/тёмная тема, свои цвета, настройка кнопки и панели без перезапуска, галерея с масштабированием, отправкой и удалением. Изображения и настройки хранятся локально. Android 7.0+; целевой Android 17. Снимки через специальные возможности требуют Android 11+; ранее используется системное согласие. Привилегированные способы требуют настройки. Защищённый контент может остаться недоступным. После обновления модуля LSPosed перезагрузите устройство.",
       "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "Джамал Эль Хизази",
       "developer_message": "Создаём умные инструменты, дающие пользователям полный контроль над их устройствами. Спасибо за доверие и поддержку!"
     },
     "hi": {
       "category": "डिज़ाइन",
-      "short_description": "Android के लिए एक शक्तिशाली, फ़्लोटिंग स्क्रीन ड्राइंग और एनोटेशन प्लेटफ़ॉर्म।",
-      "detailed_description": "Drawix Pro एक शक्तिशाली, फ़्लोटिंग स्क्रीन ड्राइंग और एनोटेशन प्लेटफ़ॉर्म है। पेशेवरों, शिक्षकों और सामग्री निर्माताओं के लिए डिज़ाइन किया गया।\n\n**मुख्य विशेषताएं:**\n- किसी भी ऐप के ऊपर फ़्लोटिंग ड्राइंग टूल।\n- उच्च-गुणवत्ता वाली एनोटेशन।\n- उन्नत क्षमताओं के लिए Shizuku एकीकरण।",
+      "short_description": "फ़्लोटिंग ड्रॉइंग, चार स्क्रीनशॉट इंजन और अनुकूलित Material 3 इंटरफ़ेस।",
+      "detailed_description": "Drawix Pro 1.1.0: फ़्लोटिंग ड्रॉइंग, आकार, तीर, टेक्स्ट, लेज़र और मोज़ेक मास्क। Standard, Shizuku, Root और LSPosed से स्क्रीनशॉट। Material 3, सिस्टम/हल्का/गहरा रूप, अपने रंग, बटन और पैनल का तुरंत अनुकूलन तथा ज़ूम, साझा और हटाने वाली गैलरी। चित्र और सेटिंग स्थानीय रहते हैं। Android 7.0+; लक्ष्य Android 17। एक्सेसिबिलिटी स्क्रीनशॉट के लिए Android 11+ चाहिए; पुराने संस्करण सिस्टम की सहमति लेते हैं। उन्नत इंजनों को सेटअप चाहिए। संरक्षित सामग्री अनुपलब्ध रह सकती है। LSPosed मॉड्यूल अपडेट के बाद डिवाइस पुनः शुरू करें।",
       "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "जमाल एल हिज़ाज़ी",
       "developer_message": "ऐसे स्मार्ट उपकरण तैयार करना जो उपयोगकर्ताओं को उनके उपकरणों पर पूर्ण नियंत्रण दें। आपके विश्वास और समर्थन के लिए धन्यवाद!"
     },
     "zh": {
       "category": "设计",
-      "short_description": "适用于 Android 的强大浮动屏幕绘图与标注平台。",
-      "detailed_description": "Drawix Pro 是一款强大的 Android 浮动屏幕绘图与标注平台。专为专业人士、教育工作者和内容创作者设计。\n\n**主要功能：**\n- 浮动绘图工具，可覆盖任何应用。\n- 高质量的标注。\n- 集成 Shizuku，提供高级功能。",
+      "short_description": "悬浮绘图、四种截图引擎和可自定义的 Material 3 界面。",
+      "detailed_description": "Drawix Pro 1.1.0：悬浮绘图、形状、箭头、文字、激光指针及马赛克遮挡。支持 Standard、Shizuku、Root 和 LSPosed 截图。提供 Material 3 界面、系统/浅色/深色外观、自定义颜色、按钮及面板即时设置，以及支持缩放、分享和删除的图库。图片和设置保存在本地。支持 Android 7.0+，目标版本 Android 17。无障碍截图需要 Android 11+；旧版本使用系统授权。高级引擎需要单独配置。受保护的内容可能仍无法截取。更新 LSPosed 模块后请重启设备。",
       "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "贾马尔·埃尔·希扎齐",
       "developer_message": "打造让用户完全掌控设备的智能工具。感谢您的信任与支持！"
     },
     "ja": {
       "category": "デザイン",
-      "short_description": "Android向けの強力なフローティングスクリーン描画・注釈プラットフォーム。",
-      "detailed_description": "Drawix Proは、Android向けの強力なフローティングスクリーン描画・注釈プラットフォームです。プロフェッショナル、教育者、コンテンツクリエイター向けに設計されています。\n\n**主な機能:**\n- 任意のアプリの上に表示されるフローティング描画ツール。\n- 高品質な注釈。\n- 高度な機能のためのShizuku統合。",
+      "short_description": "フローティング描画、4種類の撮影エンジン、カスタマイズ可能なMaterial 3。",
+      "detailed_description": "Drawix Pro 1.1.0：フローティング描画、図形、矢印、文字、レーザー、モザイクマスク。Standard、Shizuku、Root、LSPosedでスクリーンショットを撮影。Material 3、システム/ライト/ダーク表示、色の選択、ボタンとパネルの即時設定、ズーム・共有・削除に対応したギャラリー。画像と設定は端末内に保存します。Android 7.0以降、対象Android 17。ユーザー補助の撮影にはAndroid 11以降が必要で、旧版はシステムの同意を使用します。高度なエンジンには設定が必要です。保護されたコンテンツは撮影できない場合があります。LSPosedモジュールの更新後は端末を再起動してください。",
       "banner_url": "https://drawix.siwane.xyz/assets/covers/banner_main.png",
       "developer_name": "ジャマル・エル・ヒザジ",
       "developer_message": "ユーザーがデバイスを完全に制御できるスマートツールを開発しています。信頼とサポートに感謝します！"

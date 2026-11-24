@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_draw_headline">ارسم على شاشتك</string>
+  <string name="ui_no_handler">لا يوجد تطبيق لفتح هذا الإجراء.</string>
+  <string name="ui_manage">إدارة</string>
+  <string name="ui_storage_desc">تحفظ اللقطات الجديدة دون إذن شامل للصور على أندرويد 10 والأحدث. امنح الوصول عند الحاجة لعرض اللقطات القديمة.</string>
+  <string name="ui_battery_desc">اختياري: راجع إعدادات البطارية إذا أوقف النظام الأدوات العائمة. الاستثناء لا يضمن استمرار الخدمة دائمًا.</string>
+  <string name="ui_device_note">على بعض الأجهزة راجع قيود البطارية وصلاحيات التطبيق. فشل التثبيت يحتاج رسالة الخطأ الدقيقة، وهو مختلف عن إذن الظهور فوق التطبيقات.</string>
+  <string name="ui_dynamic_color">ألوان الخلفية</string>
+  <string name="ui_dynamic_desc">استخدم ألوان النظام على أندرويد 12 والأحدث.</string>
+  <string name="ui_shizuku_desc">التقط الشاشة عبر خدمة Shizuku المصرح بها. يجب أن يكون Shizuku قيد التشغيل.</string>
+  <string name="ui_root_desc">التقط الشاشة باستخدام صلاحية Root الممنوحة صراحةً.</string>
+  <string name="ui_lsposed_desc">يتطلب تفعيل الموديول داخل LSPosed. يختلف التوافق بحسب الجهاز وإصدار أندرويد.</string>
+  <string name="ui_ready">جاهز</string>
+  <string name="ui_setup_required">يتطلب الإعداد</string>
+  <string name="ui_hide_confirm">ستختفي أيقونة المشغّل. يمكنك إعادة فتح التطبيق من إشعار الخدمة النشط أو زر الإعدادات السريعة. أضف الزر قبل إخفاء الأيقونة.</string>
+  <string name="ui_refresh">تحديث</string>
+  <string name="ui_older_images">الوصول للصور القديمة</string>
+  <string name="ui_gallery_error">تعذر الوصول إلى اللقطات. راجع الصلاحيات وأعد المحاولة.</string>
+  <string name="ui_close">إغلاق</string>
+  <string name="ui_capture_timeout">انتهت مهلة التقاط الشاشة. تحقق من المحرك المحدد وأعد المحاولة.</string>
+<string name="ui_capture_cancelled">أُلغي التقاط الشاشة.</string>
+<string name="ui_capturing">جارٍ التقاط الشاشة</string>
+</resources>

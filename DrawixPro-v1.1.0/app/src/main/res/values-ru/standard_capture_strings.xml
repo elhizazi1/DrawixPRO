@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_standard_setup">Включите службу специальных возможностей Drawix Pro для снимка текущего экрана целиком без выбора приложения. Затем снова выберите стандартный движок.</string>
+</resources>

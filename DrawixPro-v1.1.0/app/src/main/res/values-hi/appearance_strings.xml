@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appearance_mode">रूप</string>
+    <string name="appearance_system">सिस्टम</string>
+    <string name="appearance_light">हल्का</string>
+    <string name="appearance_dark">गहरा</string>
+    <string name="appearance_accent">मुख्य रंग</string>
+    <string name="appearance_custom">कस्टम रंग</string>
+    <string name="appearance_hex">हेक्स रंग #RRGGBB</string>
+    <string name="appearance_hue">रंगत</string>
+    <string name="appearance_saturation">संतृप्ति</string>
+    <string name="appearance_brightness">चमक</string>
+</resources>

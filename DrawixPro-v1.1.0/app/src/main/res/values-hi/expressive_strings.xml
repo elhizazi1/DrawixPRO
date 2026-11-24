@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_style_title">रूप और रंग</string>
+  <string name="ui_style_subtitle">रंग, थीम और भाषा</string>
+  <string name="ui_drawing_subtitle">टूल, आकार और सहेजना</string>
+  <string name="ui_engine_subtitle">कैप्चर इंजन चुनें और उसकी वास्तविक स्थिति देखें</string>
+  <string name="ui_community_subtitle">भाषा आयात करें या अनुवाद बनाएँ</string>
+  <string name="ui_engines_title">कैप्चर इंजन</string>
+  <string name="ui_selected">चुना हुआ</string>
+  <string name="ui_not_running">बंद है</string>
+  <string name="ui_authorize">अनुमति आवश्यक</string>
+  <string name="ui_checking">Root अनुमति जाँची जा रही है…</string>
+  <string name="ui_module_enabled">मॉड्यूल चालू है</string>
+  <string name="ui_root_unknown">अभी जाँचा नहीं गया</string>
+  <string name="ui_engine_kept">पिछला इंजन चुना हुआ है। इस इंजन को चालू करने से पहले अनुमति या सेटअप चाहिए।</string>
+  <string name="ui_try_again">फिर कोशिश करें</string>
+  <string name="ui_open_manager">मैनेजर खोलें</string>
+  <string name="ui_standard_desc">Android 11 और बाद में एक्सेसिबिलिटी या सिस्टम की सहमति से स्क्रीनशॉट लें।</string>
+  <string name="ui_home_subtitle">स्क्रीन पर चित्र बनाएँ और अपने विचार समझाएँ।</string>
+</resources>

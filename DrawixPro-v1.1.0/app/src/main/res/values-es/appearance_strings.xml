@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appearance_mode">Apariencia</string>
+    <string name="appearance_system">Sistema</string>
+    <string name="appearance_light">Claro</string>
+    <string name="appearance_dark">Oscuro</string>
+    <string name="appearance_accent">Color de acento</string>
+    <string name="appearance_custom">Color personalizado</string>
+    <string name="appearance_hex">Color hexadecimal #RRGGBB</string>
+    <string name="appearance_hue">Tono</string>
+    <string name="appearance_saturation">Saturación</string>
+    <string name="appearance_brightness">Brillo</string>
+</resources>

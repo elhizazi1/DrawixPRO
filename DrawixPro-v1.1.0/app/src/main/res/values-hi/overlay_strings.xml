@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="overlay_customize">फ़्लोटिंग विंडो का रूप</string>
+  <string name="overlay_live">बदलाव चालू फ़्लोटिंग विंडो पर तुरंत लागू होते हैं।</string>
+  <string name="overlay_shape">बटन का आकार</string>
+  <string name="overlay_circle">गोल</string>
+  <string name="overlay_rounded">गोल किनारे</string>
+  <string name="overlay_soft_square">नरम चौकोर</string>
+  <string name="overlay_icon">बटन का आइकन</string>
+  <string name="overlay_brush">ब्रश</string>
+  <string name="overlay_camera">कैमरा</string>
+  <string name="overlay_pointer">पॉइंटर</string>
+  <string name="overlay_icon_hint">केवल आइकन बदलता है; टैप करने पर ड्रॉइंग टूल ही खुलते हैं।</string>
+  <string name="overlay_follow_accent">ऐप का रंग अपनाएँ</string>
+  <string name="overlay_follow_hint">ऐप का रंग इस्तेमाल करें या बटन के लिए अलग रंग चुनें।</string>
+  <string name="overlay_color">बटन का रंग</string>
+  <string name="overlay_panel">फ़्लोटिंग पैनल</string>
+  <string name="overlay_panel_opacity">पैनल की पृष्ठभूमि की अपारदर्शिता</string>
+  <string name="overlay_roundness">पैनल के किनारों की गोलाई</string>
+  <string name="overlay_border">पैनल की सीमा</string>
+  <string name="overlay_border_hint">हल्की सीमा पैनल को पृष्ठभूमि से अलग करती है।</string>
+  <string name="overlay_reset">फ़्लोटिंग रूप रीसेट करें</string>
+</resources>

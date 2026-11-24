@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_bridge_missing">Нет связи с системным мостом LSPosed. Включите Drawix Pro и выберите приложение и Android (системный фреймворк) в области модуля. Перезагрузите телефон после обновления.</string>
+    <string name="capture_lsposed_failed">Ошибка снимка LSPosed. Проверьте записи DrawixPro в журнале LSPosed.</string>
+    <string name="appearance_turquoise">Бирюзовый</string>
+    <string name="appearance_sapphire">Сапфировый синий</string>
+</resources>

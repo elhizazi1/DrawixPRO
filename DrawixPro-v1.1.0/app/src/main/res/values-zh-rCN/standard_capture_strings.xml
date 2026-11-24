@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_standard_setup">请启用 Drawix Pro 无障碍服务，以截取当前整个屏幕而无需选择应用。然后返回并重新选择标准引擎。</string>
+</resources>

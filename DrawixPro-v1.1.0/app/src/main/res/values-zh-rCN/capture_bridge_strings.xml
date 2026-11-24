@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_bridge_missing">LSPosed 系统桥接未连接。请启用 Drawix Pro，并在模块作用域中勾选本应用及 Android（系统框架），更新后重启手机。</string>
+    <string name="capture_lsposed_failed">LSPosed 截图失败。请查看 LSPosed 日志中的 DrawixPro 记录。</string>
+    <string name="appearance_turquoise">绿松石色</string>
+    <string name="appearance_sapphire">宝石蓝</string>
+</resources>

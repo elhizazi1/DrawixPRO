@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_style_title">المظهر والتخصيص</string>
+  <string name="ui_style_subtitle">الألوان والمظهر واللغة</string>
+  <string name="ui_drawing_subtitle">الأدوات والأحجام وحفظ اللقطات</string>
+  <string name="ui_engine_subtitle">اختر محرك الالتقاط وراجع حالته الفعلية</string>
+  <string name="ui_community_subtitle">استورد لغة أو أنشئ ترجمة</string>
+  <string name="ui_engines_title">محركات الالتقاط</string>
+  <string name="ui_selected">محدد حاليًا</string>
+  <string name="ui_not_running">غير مشغّل</string>
+  <string name="ui_authorize">يتطلب التفويض</string>
+  <string name="ui_checking">جارٍ التحقق من صلاحية Root…</string>
+  <string name="ui_module_enabled">الموديول مفعّل</string>
+  <string name="ui_root_unknown">لم يُفحص بعد</string>
+  <string name="ui_engine_kept">بقي المحرك السابق محددًا. يحتاج هذا المحرك إلى تفويضه أو إعداده قبل التفعيل.</string>
+  <string name="ui_try_again">إعادة المحاولة</string>
+  <string name="ui_open_manager">فتح المدير</string>
+  <string name="ui_standard_desc">التقط عبر إمكانية الوصول على أندرويد 11 والأحدث، أو استخدم نافذة موافقة النظام على الالتقاط.</string>
+  <string name="ui_home_subtitle">ارسم واشرح وأبرز أفكارك. شاشتك مساحة للإبداع.</string>
+</resources>

@@ -1,0 +1,13 @@
+{
+  "app_name": "Drawix Pro",
+  "package_name": "xyz.siwane.drawix.pro",
+  "version_name": "1.1.0",
+  "version_code": 2,
+  "min_sdk": 24,
+  "target_sdk": 37,
+  "release_tag": "v1.1.0",
+  "release_url": "https://github.com/elhizazi1/DrawixPRO/releases/tag/v1.1.0",
+  "apk_url": "https://github.com/elhizazi1/DrawixPRO/releases/download/v1.1.0/app-release-sign.apk",
+  "source_url": "https://github.com/elhizazi1/DrawixPRO",
+  "website": "https://drawix.siwane.xyz"
+}

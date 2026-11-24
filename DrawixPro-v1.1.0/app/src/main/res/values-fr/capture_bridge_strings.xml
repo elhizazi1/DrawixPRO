@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_bridge_missing">Le pont système LSPosed est déconnecté. Activez Drawix Pro et sélectionnez cette application et Android (framework système) dans la portée du module, puis redémarrez après la mise à jour.</string>
+    <string name="capture_lsposed_failed">Échec de la capture LSPosed. Consultez les entrées DrawixPro du journal LSPosed.</string>
+    <string name="appearance_turquoise">Turquoise</string>
+    <string name="appearance_sapphire">Bleu saphir</string>
+</resources>

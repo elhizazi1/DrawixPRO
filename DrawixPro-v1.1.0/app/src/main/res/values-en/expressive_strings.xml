@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_style_title">Look &amp; Feel</string>
+  <string name="ui_style_subtitle">Colors, theme and language</string>
+  <string name="ui_drawing_subtitle">Tools, sizes and saving</string>
+  <string name="ui_engine_subtitle">Choose a capture engine and review its real status</string>
+  <string name="ui_community_subtitle">Import a language or create a translation</string>
+  <string name="ui_engines_title">Capture engines</string>
+  <string name="ui_selected">Selected</string>
+  <string name="ui_not_running">Not running</string>
+  <string name="ui_authorize">Authorization needed</string>
+  <string name="ui_checking">Checking Root authorization…</string>
+  <string name="ui_module_enabled">Module enabled</string>
+  <string name="ui_root_unknown">Not checked yet</string>
+  <string name="ui_engine_kept">Your previous engine remains selected. This engine needs its own authorization or setup before activation.</string>
+  <string name="ui_try_again">Try again</string>
+  <string name="ui_open_manager">Open manager</string>
+  <string name="ui_standard_desc">Capture with accessibility on Android 11+, or use Android’s screen capture consent dialog.</string>
+  <string name="ui_home_subtitle">Sketch, explain and highlight. Your screen is your canvas.</string>
+</resources>

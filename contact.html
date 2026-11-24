@@ -37,18 +37,18 @@
         </div>
 
         <div class="content-box reveal delay-1">
-            <form action="mailto:jamal@elhizazi.me" method="post" enctype="text/plain">
+            <form id="contact-form" action="mailto:jamal@elhizazi.me" method="post" enctype="text/plain">
                 <div class="form-group">
-                    <label class="form-label">الاسم الكامل</label>
-                    <input type="text" class="form-control" placeholder="أدخل اسمك هنا..." required>
+                    <label class="form-label" for="contact-name">الاسم الكامل</label>
+                    <input id="contact-name" name="name" type="text" class="form-control" placeholder="أدخل اسمك هنا..." required>
                 </div>
                 <div class="form-group">
-                    <label class="form-label">البريد الإلكتروني للرد</label>
-                    <input type="email" class="form-control" placeholder="example@mail.com" required>
+                    <label class="form-label" for="contact-email">البريد الإلكتروني للرد</label>
+                    <input id="contact-email" name="email" type="email" class="form-control" placeholder="example@mail.com" required>
                 </div>
                 <div class="form-group">
-                    <label class="form-label">تفاصيل الرسالة أو المشكلة</label>
-                    <textarea class="form-control" placeholder="اكتب تفاصيل طلبك بدقة، أو المشكلة التقنية التي تواجهها مع ذكر نوع الهاتف..." required></textarea>
+                    <label class="form-label" for="contact-message">تفاصيل الرسالة أو المشكلة</label>
+                    <textarea id="contact-message" name="message" class="form-control" placeholder="اكتب تفاصيل طلبك بدقة، أو المشكلة التقنية التي تواجهها مع ذكر نوع الهاتف..." required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary" style="width: 100%;">
                     <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>

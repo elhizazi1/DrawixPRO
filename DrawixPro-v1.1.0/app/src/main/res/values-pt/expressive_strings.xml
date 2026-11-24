@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_style_title">Aparência</string>
+  <string name="ui_style_subtitle">Cores, tema e idioma</string>
+  <string name="ui_drawing_subtitle">Ferramentas, tamanhos e salvamento</string>
+  <string name="ui_engine_subtitle">Escolha um mecanismo e confira o estado real</string>
+  <string name="ui_community_subtitle">Importe um idioma ou crie uma tradução</string>
+  <string name="ui_engines_title">Mecanismos de captura</string>
+  <string name="ui_selected">Selecionado</string>
+  <string name="ui_not_running">Parado</string>
+  <string name="ui_authorize">Autorização necessária</string>
+  <string name="ui_checking">Verificando Root…</string>
+  <string name="ui_module_enabled">Módulo ativado</string>
+  <string name="ui_root_unknown">Ainda não verificado</string>
+  <string name="ui_engine_kept">O mecanismo anterior continua selecionado. Este mecanismo precisa de autorização ou configuração antes da ativação.</string>
+  <string name="ui_try_again">Tentar novamente</string>
+  <string name="ui_open_manager">Abrir gerenciador</string>
+  <string name="ui_standard_desc">Capture pela acessibilidade no Android 11 ou posterior, ou com o consentimento do sistema.</string>
+  <string name="ui_home_subtitle">Desenhe, explique e destaque suas ideias na tela.</string>
+</resources>

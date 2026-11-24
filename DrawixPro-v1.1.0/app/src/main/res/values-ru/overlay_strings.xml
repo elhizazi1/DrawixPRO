@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="overlay_customize">Внешний вид плавающих окон</string>
+  <string name="overlay_live">Изменения сразу применяются к работающим плавающим окнам.</string>
+  <string name="overlay_shape">Форма кнопки</string>
+  <string name="overlay_circle">Круг</string>
+  <string name="overlay_rounded">Скруглённая</string>
+  <string name="overlay_soft_square">Мягкий квадрат</string>
+  <string name="overlay_icon">Значок кнопки</string>
+  <string name="overlay_brush">Кисть</string>
+  <string name="overlay_camera">Камера</string>
+  <string name="overlay_pointer">Указатель</string>
+  <string name="overlay_icon_hint">Меняется только значок; нажатие по-прежнему открывает инструменты рисования.</string>
+  <string name="overlay_follow_accent">Использовать цвет приложения</string>
+  <string name="overlay_follow_hint">Использовать цвет приложения или выбрать отдельный цвет кнопки.</string>
+  <string name="overlay_color">Цвет кнопки</string>
+  <string name="overlay_panel">Плавающая панель</string>
+  <string name="overlay_panel_opacity">Непрозрачность фона панели</string>
+  <string name="overlay_roundness">Скругление панели</string>
+  <string name="overlay_border">Контур панели</string>
+  <string name="overlay_border_hint">Тонкий контур отделяет панель от фона.</string>
+  <string name="overlay_reset">Сбросить внешний вид окон</string>
+</resources>

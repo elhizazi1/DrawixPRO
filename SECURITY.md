@@ -1,21 +1,7 @@
-# Security Policy
+# Security policy
 
-## Supported Versions
+Security fixes are maintained for the current 1.1.x release line. Older versions should be updated.
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Report security concerns privately to jamal@elhizazi.me. Include the affected version, Android version, reproduction steps and potential impact. Avoid posting sensitive information, private screenshots, signing keys or exploit details in public issues.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
-
-## Reporting a Vulnerability
-
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Advanced capture engines run with elevated capabilities supplied by their respective services. Grant permissions only when needed and install modules and updates from trusted sources. Protected content remains subject to Android and application restrictions.

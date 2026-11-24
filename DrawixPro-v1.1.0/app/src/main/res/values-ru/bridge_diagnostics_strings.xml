@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_restart">Загруженный модуль отличается от обновлённого приложения. Перезагрузите телефон и повторите.</string>
+    <string name="capture_lsposed_hosts_missing">Нет ответа от Android или System UI. Включите модуль для Android или System UI и перезагрузите телефон. Ниже можно скопировать отчёт.</string>
+    <string name="lsposed_manager_help">Менеджер может быть встроенным. Для запуска используется уже выданный root-доступ. Можно также открыть его через уведомление фреймворка или кнопку действия в root-менеджере.</string>
+    <string name="lsposed_copy_report">Копировать отчёт LSPosed</string>
+    <string name="lsposed_open_with_root">Открыть встроенный менеджер через Root</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="overlay_customize">Apparence flottante</string>
+  <string name="overlay_live">Les modifications sont appliquées immédiatement aux fenêtres flottantes actives.</string>
+  <string name="overlay_shape">Forme du bouton</string>
+  <string name="overlay_circle">Cercle</string>
+  <string name="overlay_rounded">Arrondi</string>
+  <string name="overlay_soft_square">Carré adouci</string>
+  <string name="overlay_icon">Icône du bouton</string>
+  <string name="overlay_brush">Pinceau</string>
+  <string name="overlay_camera">Appareil photo</string>
+  <string name="overlay_pointer">Pointeur</string>
+  <string name="overlay_icon_hint">Seule l’icône change ; un appui ouvre toujours les outils de dessin.</string>
+  <string name="overlay_follow_accent">Suivre la couleur de l’application</string>
+  <string name="overlay_follow_hint">Utiliser la couleur de l’application ou choisir une couleur indépendante.</string>
+  <string name="overlay_color">Couleur du bouton</string>
+  <string name="overlay_panel">Panneau flottant</string>
+  <string name="overlay_panel_opacity">Opacité du fond du panneau</string>
+  <string name="overlay_roundness">Arrondi du panneau</string>
+  <string name="overlay_border">Contour du panneau</string>
+  <string name="overlay_border_hint">Un contour discret distingue le panneau de son arrière-plan.</string>
+  <string name="overlay_reset">Réinitialiser l’apparence flottante</string>
+</resources>

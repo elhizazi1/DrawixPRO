@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appearance_mode">Оформление</string>
+    <string name="appearance_system">Система</string>
+    <string name="appearance_light">Светлая</string>
+    <string name="appearance_dark">Тёмная</string>
+    <string name="appearance_accent">Акцентный цвет</string>
+    <string name="appearance_custom">Свой цвет</string>
+    <string name="appearance_hex">Цвет HEX #RRGGBB</string>
+    <string name="appearance_hue">Оттенок</string>
+    <string name="appearance_saturation">Насыщенность</string>
+    <string name="appearance_brightness">Яркость</string>
+</resources>

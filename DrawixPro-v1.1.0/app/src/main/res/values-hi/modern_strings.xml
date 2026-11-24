@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_draw_headline">स्क्रीन पर चित्र बनाएँ</string>
+  <string name="ui_no_handler">इस कार्रवाई को खोलने वाला कोई ऐप नहीं है।</string>
+  <string name="ui_manage">प्रबंधित करें</string>
+  <string name="ui_storage_desc">Android 10 और बाद के संस्करणों में नए स्क्रीनशॉट के लिए सभी फ़ोटो की अनुमति नहीं चाहिए। पुराने स्क्रीनशॉट देखने के लिए ही अनुमति दें।</string>
+  <string name="ui_battery_desc">वैकल्पिक: सिस्टम द्वारा फ़्लोटिंग टूल बंद करने पर बैटरी सेटिंग देखें। छूट मिलने से लगातार चलने की गारंटी नहीं है।</string>
+  <string name="ui_device_note">कुछ फ़ोन पर बैटरी प्रतिबंध और अनुमतियाँ देखें। इंस्टॉल की समस्या के लिए सटीक त्रुटि संदेश चाहिए; यह ओवरले अनुमति से अलग है।</string>
+  <string name="ui_dynamic_color">वॉलपेपर के रंग</string>
+  <string name="ui_dynamic_desc">Android 12 और बाद के संस्करणों में सिस्टम के रंग इस्तेमाल करें।</string>
+  <string name="ui_shizuku_desc">अधिकृत Shizuku उपयोगकर्ता सेवा से स्क्रीनशॉट लें। Shizuku चालू होना चाहिए।</string>
+  <string name="ui_root_desc">स्पष्ट रूप से दी गई Root अनुमति से स्क्रीनशॉट लें।</string>
+  <string name="ui_lsposed_desc">LSPosed में मॉड्यूल चालू होना चाहिए। अनुकूलता फ़ोन और Android संस्करण पर निर्भर करती है।</string>
+  <string name="ui_ready">तैयार</string>
+  <string name="ui_setup_required">सेटअप आवश्यक</string>
+  <string name="ui_hide_confirm">लॉन्चर आइकन छिप जाएगा। सक्रिय सूचना या त्वरित सेटिंग टाइल से Drawix Pro खोलें। आइकन छिपाने से पहले टाइल जोड़ें।</string>
+  <string name="ui_refresh">रीफ़्रेश करें</string>
+  <string name="ui_older_images">पुरानी तस्वीरों का एक्सेस</string>
+  <string name="ui_gallery_error">स्क्रीनशॉट नहीं खोले जा सके। अनुमतियाँ देखकर फिर कोशिश करें।</string>
+  <string name="ui_close">बंद करें</string>
+  <string name="ui_capture_timeout">स्क्रीनशॉट का समय समाप्त हुआ। चुना गया इंजन देखकर फिर कोशिश करें।</string>
+  <string name="ui_capture_cancelled">स्क्रीनशॉट रद्द किया गया।</string>
+  <string name="ui_capturing">स्क्रीनशॉट लिया जा रहा है</string>
+</resources>

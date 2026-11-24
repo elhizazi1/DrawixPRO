@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_style_title">Оформление</string>
+  <string name="ui_style_subtitle">Цвета, тема и язык</string>
+  <string name="ui_drawing_subtitle">Инструменты, размеры и сохранение</string>
+  <string name="ui_engine_subtitle">Выберите движок и проверьте его состояние</string>
+  <string name="ui_community_subtitle">Импорт языка или создание перевода</string>
+  <string name="ui_engines_title">Движки снимков</string>
+  <string name="ui_selected">Выбран</string>
+  <string name="ui_not_running">Не запущен</string>
+  <string name="ui_authorize">Нужна авторизация</string>
+  <string name="ui_checking">Проверка Root…</string>
+  <string name="ui_module_enabled">Модуль включён</string>
+  <string name="ui_root_unknown">Ещё не проверено</string>
+  <string name="ui_engine_kept">Предыдущий движок остаётся выбранным. Для активации этого движка требуется разрешение или настройка.</string>
+  <string name="ui_try_again">Повторить</string>
+  <string name="ui_open_manager">Открыть менеджер</string>
+  <string name="ui_standard_desc">Снимки через специальные возможности на Android 11 и новее или с согласия системы.</string>
+  <string name="ui_home_subtitle">Рисуйте, объясняйте и выделяйте свои идеи на экране.</string>
+</resources>

@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دراويكس برو - منصة التحكم وإعدادات الشرح</title>
+    <title>دراويكس برو 1.1.0 — الرسم والتوضيح على الشاشة</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://drawix.siwane.xyz/">
         <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="apple-touch-icon" href="assets/favicon.png">
-<meta name="description" content="Drawix Pro: أداة احترافية للرسم على الشاشة والتوضيح للاندرويد. تدعم محركات Shizuku و Root و LSPosed لتجاوز قيود النظام وتوفير تجربة شرح تفاعلية وآمنة.">
+<meta name="description" content="Drawix Pro 1.1.0: أدوات رسم عائمة، أربعة محركات لالتقاط الشاشة، وتخصيص حي مع واجهة Material 3 ومظهر النظام والفاتح والداكن.">
     <meta name="keywords" content="Drawix Pro, Android, drawing, screen annotation, Shizuku, Root, LSPosed, productivity, رسم على الشاشة">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8266760443476569"
      crossorigin="anonymous"></script>
@@ -23,28 +24,37 @@
             <div class="nav-links"><a href="index.html" class="active">الرئيسية</a><a href="#features">المميزات</a><a href="#engines">المحركات</a><a href="privacy.html">الخصوصية</a><a href="contact.html">تواصل معنا</a></div><button id="theme-toggle" class="theme-btn" aria-label="تبديل المظهر"></button>
         </div>
     </nav>
-    <div class="container"><!-- Hero Section -->
+    <div class="container">
         <section class="hero">
             <div class="hero-text reveal">
                 <div class="hero-tag"><svg viewbox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                         <path d="M9 12l2 2 4-4" />
-                    </svg>أمان وموثوقية عالية (Offline)</div>
-                <h1 class="hero-title">منصة التحكم وإعدادات الشرح الاحترافية</h1>
-                <p class="hero-desc">تطبيق بسيط وفعال للرسم على الشاشة والتقاطها بأمان وبوضع عدم الاتصال بالكامل (Offline). يوفر التطبيق مرونة كاملة في التشغيل ليناسب مختلف الأجهزة، حيث يدعم الوضع القياسي السهل، بالإضافة إلى محركات Shizuku و Root و LSPosed لضمان أداء مستقر وثابت.</p>
-                <div class="btn-group"><a href="https://github.com/elhizazi1/Drawix/releases/latest" target="_blank" class="btn btn-primary">
+                    </svg>الإصدار 1.1.0 · Android 7.0+</div>
+                <h1 class="hero-title">ارسم على شاشتك بطريقتك</h1>
+                <p class="hero-desc">أدوات رسم وتوضيح فوق التطبيقات مع أربعة محركات لالتقاط الشاشة. يأتي الإصدار 1.1.0 بواجهة Material 3، ومظهر يتبع النظام، وتخصيص حي للزر والصندوق، ومعرض محسّن للعرض والتكبير والمشاركة.</p>
+                <div class="btn-group"><a href="https://github.com/elhizazi1/DrawixPRO/releases/tag/v1.1.0" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
 <svg viewbox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17" />
-                        </svg>تنزيل الإصدار الجديد</a><a href="#engines" class="btn btn-outline">استكشف المحركات</a></div>
-            </div><!-- حاوية السلايدر للقطات الشاشة الفعلية (بدون إطار CSS) -->
-            <div class="hero-visual reveal delay-1">
-                <div class="app-screenshot-slider"><!-- الصورة الأولى --><img src="assets/screen/screen1.png" alt="واجهة التطبيق الرئيسية" class="slide active"><!-- يمكنك إضافة المزيد من اللقطات هنا إذا توفرت لديك --><img src="assets/screen/screen2.png" alt="واجهة المعرض" class="slide active"><img src="assets/screen/screen3.png" alt="واجهة الأمان" class="slide"><img src="assets/screen/screen4.png" alt="واجهة الإعدادات" class="slide"></div>
+                        </svg>تنزيل الإصدار 1.1.0</a><a href="#engines" class="btn btn-outline">استكشف المحركات</a></div>
             </div>
-        </section><!-- Features Section -->
+            <div class="hero-visual reveal delay-1">
+                <div class="app-screenshot-slider"><img src="assets/screen/screen1.png" alt="واجهة التطبيق الرئيسية" class="slide active"><img src="assets/screen/screen2.png" alt="واجهة المعرض" class="slide"><img src="assets/screen/screen3.png" alt="واجهة الأمان" class="slide"><img src="assets/screen/screen4.png" alt="واجهة الإعدادات" class="slide"></div><p class="screenshot-note">لقطات توضيحية من الإصدار السابق؛ يقدّم 1.1.0 المظهر الجديد وخيارات التخصيص الموسعة.</p>
+            </div>
+        </section>
+
+        <section id="release" class="section-padding">
+            <div class="section-header reveal"><h2 class="section-title">الجديد في 1.1.0</h2><p class="section-desc">Android 7.0 فأحدث · يستهدف Android 17 · رمز الإصدار 2</p></div>
+            <div class="grid-cards">
+                <article class="feature-card reveal"><h3 class="f-title">مظهر وتخصيص مباشر</h3><p class="f-desc">اختر مظهر النظام أو الفاتح أو الداكن، وألوان الخلفية أو لونًا مخصصًا. غيّر شكل الزر وأيقونته ولونه، وشفافية خلفية الصندوق واستدارة زواياه وحدوده، مع معاينة وتطبيق مباشر.</p></article>
+                <article class="feature-card reveal"><h3 class="f-title">معرض وأدوات أوضح</h3><p class="f-desc">مصغرات أنظف، وعرض للصورة مع التكبير، ومشاركة وحذف منظمين. تحتفظ النوافذ العائمة بحالتها عند تغيير المظهر، وتعمل أدوات الرسم والليزر والأشكال والنصوص كما اعتدت.</p></article>
+                <article class="feature-card reveal"><h3 class="f-title">إصلاحات مهمة</h3><p class="f-desc">تصحيح تعارض تثبيت صلاحية Shizuku، وتحسين توافق التقاط LSPosed مع Android 17، وضبط المقاسات واتجاه RTL وفواصل البطاقات.</p></article>
+            </div>
+        </section>
         <section id="features" class="section-padding">
             <div class="section-header reveal">
                 <h2 class="section-title">أدوات التوضيح المتقدمة (PRO)</h2>
-                <p class="section-desc">مجموعة كاملة من الأدوات المصممة بعناية فائقة لتقديم شروحات تفاعلية، تسجيلات شاشة احترافية، وحماية للبيانات.</p>
+                <p class="section-desc">مجموعة كاملة من الأدوات المصممة بعناية فائقة لتقديم شروحات تفاعلية، لقطات شاشة واضحة، وحماية للبيانات.</p>
             </div>
             <div class="grid-cards">
                 <div class="feature-card reveal delay-1">
@@ -71,33 +81,33 @@
                     <p class="f-desc">التقط أعمالك وشروحاتك بدقة عالية الجودة بصيغة PNG أو وفر المساحة باستخدام JPEG. جميع اللقطات تُحفظ مباشرة في المعرض المدمج.</p>
                 </div>
             </div>
-        </section><!-- Engines Section -->
+        </section>
         <section id="engines" class="section-padding">
             <div class="section-header reveal">
-                <h2 class="section-title">محركات التشغيل الأربعة (Core Engines)</h2>
-                <p class="section-desc">أداء لا ينقطع. يقدم دراويكس برو أوضاع تشغيل متقدمة لضمان بقاء أدوات الرسم العائمة ثابتة وقوية على أي جهاز أندرويد مهما كانت القيود.</p>
+                <h2 class="section-title">أربعة محركات لالتقاط الشاشة</h2>
+                <p class="section-desc">اختر محرك التقاط الشاشة المناسب لجهازك وصلاحياته. أدوات الرسم تعمل محليًا، ويختلف توفر الالتقاط بحسب إعداد المحرك وإصدار أندرويد.</p>
             </div>
             <div class="grid-cards gBx4">
                 <div class="feature-card reveal delay-1">
                     <div class="f-icon" style="background: var(--status-info-bg); color: var(--status-info);"><svg viewbox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                         </svg></div>
-                    <h3 class="f-title">الوضع القياسي (Standard)</h3>
-                    <p class="f-desc">الوضع الافتراضي الذي يعتمد على صلاحيات إمكانية الوصول (Accessibility). سهل الإعداد ومناسب لمعظم الأجهزة الذكية وبدون أي تعقيدات تقنية.</p>
+                    <h3 class="f-title">المحرك القياسي</h3>
+                    <p class="f-desc">يستخدم التقاط إمكانية الوصول على Android 11 فأحدث. على Android 7–10 تظهر نافذة موافقة النظام لبدء الالتقاط.</p>
                 </div>
                 <div class="feature-card reveal delay-2">
                     <div class="f-icon" style="background: rgba(139, 92, 246, 0.1); color: #8B5CF6;"><svg viewbox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M13 10V3L4 14h7v7l9-11h-7z" />
                         </svg></div>
-                    <h3 class="f-title">وضع Shizuku (موصى به)</h3>
-                    <p class="f-desc">يستخدم بروتوكولات متطورة لتصوير الشاشة بشكل صامت وسريع جداً، مع توفير حماية مطلقة من إيقاف النظام العشوائي للتطبيق في الخلفية.</p>
+                    <h3 class="f-title">محرك Shizuku</h3>
+                    <p class="f-desc">يلتقط الشاشة عبر خدمة Shizuku العاملة والمصرح بها. لا يحتاج روت عند تشغيل Shizuku عبر ADB، ولا يضمن منع النظام من إيقاف التطبيقات.</p>
                 </div>
                 <div class="feature-card reveal delay-3">
                     <div class="f-icon" style="background: var(--status-error-bg); color: var(--status-error);"><svg viewbox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M4 9h16M4 15h16M10 3L8 21M16 3l-2 18" />
                         </svg></div>
-                    <h3 class="f-title">وضع Root (السيطرة المطلقة)</h3>
-                    <p class="f-desc">مصمم للمحترفين. يمنح أداءً خارقاً عبر أوامر النظام المباشرة، متجاوزاً كافة قيود الذاكرة العشوائية لضمان التقاط فوري وثبات عميق في النظام.</p>
+                    <h3 class="f-title">محرك Root</h3>
+                    <p class="f-desc">يلتقط الشاشة عبر أمر النظام بعد منح صلاحية Root صراحةً. لا يُطلب هذا الإذن لاستخدام أدوات الرسم الأساسية.</p>
                 </div>
                 <div class="feature-card reveal delay-4">
                     <div class="f-icon" style="background: var(--status-warning-bg); color: var(--status-warning);"><svg viewbox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
@@ -105,12 +115,12 @@
                             <polyline points="2 17 12 22 22 17" />
                             <polyline points="2 12 12 17 22 12" />
                         </svg></div>
-                    <h3 class="f-title">وضع LSPosed (كاسر الحماية)</h3>
-                    <p class="f-desc">هل تواجه شاشة سوداء عند التصوير؟ يعمل وضع LSPosed على تخطي حماية الشاشة (FLAG_SECURE) لتمكينك من التصوير والشرح في أي تطبيق محمي أو بنكي.</p>
+                    <h3 class="f-title">محرك LSPosed</h3>
+                    <p class="f-desc">يتطلب تفعيل الموديول ونطاقاته ثم إعادة تشغيل الجهاز بعد تحديثه. يتضمن توافق التقاط Android 17؛ يختلف الدعم حسب الجهاز والإطار، وقد يبقى المحتوى المحمي غير متاح.</p>
                 </div>
             </div>
         </section>
-    </div><!-- Footer -->
+    </div>
     <footer>
         <div class="container">
             <div class="footer-brand"><svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_restart">已加载的模块与当前应用更新不同。更新后请重启手机再试。</string>
+    <string name="capture_lsposed_hosts_missing">Android 或 System UI 未响应。请为 Android 或 System UI 启用模块并重启。可复制下方诊断报告。</string>
+    <string name="lsposed_manager_help">管理器可能嵌入在系统中。打开时会使用已有的 root 授权；也可通过框架通知或 root 管理器的操作按钮打开。</string>
+    <string name="lsposed_copy_report">复制 LSPosed 报告</string>
+    <string name="lsposed_open_with_root">通过 Root 打开内置管理器</string>
+</resources>

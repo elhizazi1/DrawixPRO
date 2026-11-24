@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="overlay_customize">悬浮外观</string>
+  <string name="overlay_live">更改会立即应用到正在运行的悬浮窗口。</string>
+  <string name="overlay_shape">按钮形状</string>
+  <string name="overlay_circle">圆形</string>
+  <string name="overlay_rounded">圆角</string>
+  <string name="overlay_soft_square">柔和方形</string>
+  <string name="overlay_icon">按钮图标</string>
+  <string name="overlay_brush">画笔</string>
+  <string name="overlay_camera">相机</string>
+  <string name="overlay_pointer">指针</string>
+  <string name="overlay_icon_hint">仅更改图标外观；点击仍会打开绘图工具。</string>
+  <string name="overlay_follow_accent">跟随应用主题色</string>
+  <string name="overlay_follow_hint">使用应用主题色或为按钮选择独立颜色。</string>
+  <string name="overlay_color">按钮颜色</string>
+  <string name="overlay_panel">悬浮面板</string>
+  <string name="overlay_panel_opacity">面板背景不透明度</string>
+  <string name="overlay_roundness">面板圆角程度</string>
+  <string name="overlay_border">面板边框</string>
+  <string name="overlay_border_hint">柔和的边框让面板与背景清晰分离。</string>
+  <string name="overlay_reset">重置悬浮外观</string>
+</resources>

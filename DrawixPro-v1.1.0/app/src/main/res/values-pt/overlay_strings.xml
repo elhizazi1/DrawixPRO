@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="overlay_customize">Aparência flutuante</string>
+  <string name="overlay_live">As alterações são aplicadas imediatamente às janelas flutuantes ativas.</string>
+  <string name="overlay_shape">Formato do botão</string>
+  <string name="overlay_circle">Círculo</string>
+  <string name="overlay_rounded">Arredondado</string>
+  <string name="overlay_soft_square">Quadrado suave</string>
+  <string name="overlay_icon">Ícone do botão</string>
+  <string name="overlay_brush">Pincel</string>
+  <string name="overlay_camera">Câmera</string>
+  <string name="overlay_pointer">Ponteiro</string>
+  <string name="overlay_icon_hint">Apenas o ícone muda; tocar continua a abrir as ferramentas de desenho.</string>
+  <string name="overlay_follow_accent">Seguir a cor do aplicativo</string>
+  <string name="overlay_follow_hint">Usar a cor do aplicativo ou escolher uma cor independente.</string>
+  <string name="overlay_color">Cor do botão</string>
+  <string name="overlay_panel">Painel flutuante</string>
+  <string name="overlay_panel_opacity">Opacidade do fundo do painel</string>
+  <string name="overlay_roundness">Arredondamento do painel</string>
+  <string name="overlay_border">Contorno do painel</string>
+  <string name="overlay_border_hint">Um contorno sutil separa o painel do fundo.</string>
+  <string name="overlay_reset">Redefinir aparência flutuante</string>
+</resources>

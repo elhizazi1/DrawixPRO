@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_style_title">Apariencia</string>
+  <string name="ui_style_subtitle">Colores, tema e idioma</string>
+  <string name="ui_drawing_subtitle">Herramientas, tamaños y guardado</string>
+  <string name="ui_engine_subtitle">Elige un motor y comprueba su estado real</string>
+  <string name="ui_community_subtitle">Importa un idioma o crea una traducción</string>
+  <string name="ui_engines_title">Motores de captura</string>
+  <string name="ui_selected">Seleccionado</string>
+  <string name="ui_not_running">Detenido</string>
+  <string name="ui_authorize">Necesita autorización</string>
+  <string name="ui_checking">Comprobando Root…</string>
+  <string name="ui_module_enabled">Módulo activado</string>
+  <string name="ui_root_unknown">Sin comprobar</string>
+  <string name="ui_engine_kept">El motor anterior sigue seleccionado. Este motor necesita autorización o configuración antes de activarse.</string>
+  <string name="ui_try_again">Reintentar</string>
+  <string name="ui_open_manager">Abrir administrador</string>
+  <string name="ui_standard_desc">Captura mediante accesibilidad desde Android 11 o mediante el consentimiento del sistema.</string>
+  <string name="ui_home_subtitle">Dibuja, explica y destaca tus ideas en la pantalla.</string>
+</resources>

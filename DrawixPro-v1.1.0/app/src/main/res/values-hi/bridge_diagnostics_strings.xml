@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_restart">लोड किया गया मॉड्यूल इस अपडेट से अलग है। फ़ोन पुनः चालू करके फिर प्रयास करें।</string>
+    <string name="capture_lsposed_hosts_missing">Android या System UI से उत्तर नहीं मिला। मॉड्यूल को Android या System UI के लिए सक्षम करके फ़ोन पुनः चालू करें। नीचे जाँच रिपोर्ट कॉपी कर सकते हैं।</string>
+    <string name="lsposed_manager_help">मैनेजर सिस्टम में अंतर्निहित हो सकता है। उसे खोलने के लिए पहले से दी गई root अनुमति उपयोग होती है। फ़्रेमवर्क सूचना या root मैनेजर का Action बटन भी उपयोग कर सकते हैं।</string>
+    <string name="lsposed_copy_report">LSPosed रिपोर्ट कॉपी करें</string>
+    <string name="lsposed_open_with_root">Root से अंतर्निहित मैनेजर खोलें</string>
+</resources>

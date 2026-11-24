@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_lsposed_bridge_missing">LSPosed सिस्टम ब्रिज जुड़ा नहीं है। Drawix Pro सक्षम करें और मॉड्यूल दायरे में ऐप तथा Android (सिस्टम फ़्रेमवर्क) चुनें। अपडेट के बाद फ़ोन पुनः चालू करें।</string>
+    <string name="capture_lsposed_failed">LSPosed स्क्रीनशॉट विफल रहा। LSPosed लॉग में DrawixPro प्रविष्टियाँ देखें।</string>
+    <string name="appearance_turquoise">फ़िरोज़ी</string>
+    <string name="appearance_sapphire">नीलम नीला</string>
+</resources>

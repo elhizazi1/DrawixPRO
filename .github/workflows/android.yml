@@ -1,28 +1,124 @@
-name: Android CI
+name: Android build
+run-name: Android build · ${{ inputs.build_type }}
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+      build_type:
+        description: Build output
+        type: choice
+        required: true
+        default: debug
+        options:
+          - debug
+          - release
+          - aab
+          - all
+
+permissions:
+  contents: read
+concurrency:
+  group: android-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: DrawixPro
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      BUILD_TYPE: ${{ inputs.build_type }}
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Validate release metadata
+        working-directory: .
+        run: python3 scripts/validate_release.py --source DrawixPro
+      - uses: gradle/actions/setup-gradle@v4
 
-    - name: Set up JDK 17
-      uses: actions/setup-java@v3
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-        cache: gradle
+      # GitHub's Ubuntu image already includes current Android command-line tools.
+      # Use them directly rather than replacing them with setup-android v3's older default.
+      - name: Prepare Android SDK and accept licenses
+        shell: bash
+        run: |
+          set -euo pipefail
+          sdk_root="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-/usr/local/lib/android/sdk}}"
+          sdk_manager="$sdk_root/cmdline-tools/latest/bin/sdkmanager"
+          if [ ! -x "$sdk_manager" ]; then
+            echo "::error::Preinstalled sdkmanager is missing: $sdk_manager"
+            exit 1
+          fi
+          echo "ANDROID_HOME=$sdk_root" >> "$GITHUB_ENV"
+          echo "ANDROID_SDK_ROOT=$sdk_root" >> "$GITHUB_ENV"
+          echo "$sdk_root/cmdline-tools/latest/bin" >> "$GITHUB_PATH"
+          "$sdk_manager" --version
+          # yes can exit with SIGPIPE after sdkmanager finishes. Check sdkmanager's status.
+          set +e
+          yes | "$sdk_manager" --sdk_root="$sdk_root" --licenses
+          license_status=${PIPESTATUS[1]}
+          set -e
+          if [ "$license_status" -ne 0 ]; then
+            echo "::error::SDK license acceptance failed with exit code $license_status"
+            exit "$license_status"
+          fi
+          "$sdk_manager" --sdk_root="$sdk_root" 'platforms;android-37.0' 'build-tools;36.0.0'
 
-    - name: Grant execute permission for gradlew
-      run: chmod +x DrawixPro/gradlew
+      - name: Build selected output and run checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          chmod +x gradlew
+          case "$BUILD_TYPE" in
+            debug) tasks=(:app:assembleDebug) ;;
+            release) tasks=(:app:assembleRelease) ;;
+            aab) tasks=(:app:bundleRelease) ;;
+            all) tasks=(:app:assembleDebug :app:assembleRelease :app:bundleRelease) ;;
+            *) echo "::error::Unknown build output: $BUILD_TYPE"; exit 1 ;;
+          esac
+          ./gradlew --no-daemon --stacktrace "${tasks[@]}" :app:lintDebug
 
-    - name: Build with Gradle
-      run: cd DrawixPro && ./gradlew assembleDebug
+      - name: Sign release APK when signing secrets are configured
+        if: github.event_name != 'pull_request' && (env.BUILD_TYPE == 'release' || env.BUILD_TYPE == 'all')
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -n "$KEYSTORE_BASE64" ]; then
+            test -n "$KEYSTORE_PASSWORD" && test -n "$KEY_ALIAS" && test -n "$KEY_PASSWORD"
+            trap 'rm -f "$RUNNER_TEMP/drawix-release.jks"' EXIT
+            printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/drawix-release.jks"
+            "$ANDROID_HOME/build-tools/36.0.0/apksigner" sign --ks "$RUNNER_TEMP/drawix-release.jks" --ks-pass env:KEYSTORE_PASSWORD --ks-key-alias "$KEY_ALIAS" --key-pass env:KEY_PASSWORD --out app/build/outputs/apk/release/DrawixPro-release-signed.apk app/build/outputs/apk/release/app-release-unsigned.apk
+            "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify app/build/outputs/apk/release/DrawixPro-release-signed.apk
+          else
+            echo 'No signing secrets configured; the release APK is unsigned.'
+          fi
+
+      - name: Upload selected APK or bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: DrawixPro-${{ env.BUILD_TYPE }}-${{ github.run_number }}
+          path: |
+            DrawixPro/app/build/outputs/apk/**/*.apk
+            DrawixPro/app/build/outputs/bundle/**/*.aab
+          if-no-files-found: error
+
+      - name: Upload reports and release mapping
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: DrawixPro-reports-${{ github.run_number }}
+          path: |
+            DrawixPro/app/build/reports/
+            DrawixPro/app/build/outputs/mapping/release/
+            DrawixPro/app/build/outputs/logs/
+          if-no-files-found: ignore

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_draw_headline">Dessinez sur votre écran</string>
+  <string name="ui_no_handler">Aucune application ne peut ouvrir cette action.</string>
+  <string name="ui_manage">Gérer</string>
+  <string name="ui_storage_desc">Sur Android 10 et versions ultérieures, les nouvelles captures ne nécessitent pas un accès général aux photos. Autorisez cet accès pour les anciennes captures.</string>
+  <string name="ui_battery_desc">Facultatif : vérifiez les paramètres de batterie si le système arrête les outils flottants. Une exemption ne garantit pas leur fonctionnement continu.</string>
+  <string name="ui_device_note">Sur certains appareils, vérifiez les restrictions de batterie et les autorisations. Un échec de l’installation nécessite son message exact, indépendamment de l’autorisation de superposition.</string>
+  <string name="ui_dynamic_color">Couleurs du fond d’écran</string>
+  <string name="ui_dynamic_desc">Utiliser les couleurs du système sur Android 12 et versions ultérieures.</string>
+  <string name="ui_shizuku_desc">Capturer via un service utilisateur Shizuku autorisé. Shizuku doit être en cours d’exécution.</string>
+  <string name="ui_root_desc">Capturer avec un accès Root explicitement accordé.</string>
+  <string name="ui_lsposed_desc">Nécessite le module activé dans LSPosed. La compatibilité dépend de l’appareil et d’Android.</string>
+  <string name="ui_ready">Prêt</string>
+  <string name="ui_setup_required">Configuration nécessaire</string>
+  <string name="ui_hide_confirm">L’icône sera masquée. Ouvrez Drawix Pro depuis sa notification active ou sa tuile de paramètres rapides. Ajoutez la tuile avant de masquer l’icône.</string>
+  <string name="ui_refresh">Actualiser</string>
+  <string name="ui_older_images">Accéder aux anciennes images</string>
+  <string name="ui_gallery_error">Impossible d’accéder aux captures. Vérifiez les autorisations et réessayez.</string>
+  <string name="ui_close">Fermer</string>
+  <string name="ui_capture_timeout">Le délai de capture est dépassé. Vérifiez le moteur choisi et réessayez.</string>
+  <string name="ui_capture_cancelled">Capture d’écran annulée.</string>
+  <string name="ui_capturing">Capture en cours</string>
+</resources>

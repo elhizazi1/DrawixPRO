@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ui_draw_headline">Dibuja sobre tu pantalla</string>
+  <string name="ui_no_handler">Ninguna aplicación puede abrir esta acción.</string>
+  <string name="ui_manage">Administrar</string>
+  <string name="ui_storage_desc">Las capturas nuevas no necesitan acceso general a las fotos desde Android 10. Permite el acceso para incluir capturas anteriores.</string>
+  <string name="ui_battery_desc">Opcional: revisa la batería si el sistema detiene las herramientas flotantes. La exención no garantiza un servicio continuo.</string>
+  <string name="ui_device_note">En algunos dispositivos, revisa las restricciones de batería y los permisos. Los errores de instalación requieren su mensaje exacto y son independientes del permiso de superposición.</string>
+  <string name="ui_dynamic_color">Colores del fondo de pantalla</string>
+  <string name="ui_dynamic_desc">Usar los colores del sistema desde Android 12.</string>
+  <string name="ui_shizuku_desc">Capturar mediante un servicio de usuario Shizuku autorizado. Shizuku debe estar en ejecución.</string>
+  <string name="ui_root_desc">Capturar con acceso Root concedido explícitamente.</string>
+  <string name="ui_lsposed_desc">Requiere activar el módulo en LSPosed. La compatibilidad varía según el dispositivo y Android.</string>
+  <string name="ui_ready">Listo</string>
+  <string name="ui_setup_required">Requiere configuración</string>
+  <string name="ui_hide_confirm">Se ocultará el icono. Abre Drawix Pro desde su notificación activa o su acceso de ajustes rápidos. Añade ese acceso antes de ocultar el icono.</string>
+  <string name="ui_refresh">Actualizar</string>
+  <string name="ui_older_images">Acceder a imágenes anteriores</string>
+  <string name="ui_gallery_error">No se pudo acceder a las capturas. Revisa los permisos e inténtalo de nuevo.</string>
+  <string name="ui_close">Cerrar</string>
+  <string name="ui_capture_timeout">Se agotó el tiempo de captura. Revisa el motor seleccionado e inténtalo de nuevo.</string>
+  <string name="ui_capture_cancelled">Se canceló la captura de pantalla.</string>
+  <string name="ui_capturing">Capturando pantalla</string>
+</resources>

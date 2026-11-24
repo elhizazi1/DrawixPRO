@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="capture_standard_setup">Activez le service Drawix Pro dans les paramètres Accessibilité pour capturer tout l’écran actuel sans choisir une application. Revenez ensuite sélectionner Standard.</string>
+</resources>
