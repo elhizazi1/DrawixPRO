@@ -12,7 +12,7 @@
   <a href="https://github.com/elhizazi1/DrawixPRO/actions/workflows/android.yml"><img src="https://github.com/elhizazi1/DrawixPRO/actions/workflows/android.yml/badge.svg" alt="Android build" /></a>
   <p><a href="README.md">English</a> · <a href="README_AR.md">العربية</a></p>
   <img src="assets/covers/banner_ar_main.png" width="100%" alt="Drawix Pro banner" />
-  <p><a href="https://github.com/elhizazi1/DrawixPRO/releases/download/v1.1.0/app-release-sign.apk"><img src="https://img.shields.io/badge/APK-%D8%AA%D8%AD%D9%85%D9%8A%D9%84-2E7D32?style=for-the-badge&logo=android&logoColor=white" alt="Download APK" /></a> <a href="https://drawix.siwane.xyz"><img src="https://img.shields.io/badge/Website-Drawix_Pro-6750A4?style=for-the-badge" alt="Official website" /></a></p>
+  <p><a href="https://github.com/elhizazi1/DrawixPRO/releases/tag/v1.1.0"><img src="https://img.shields.io/badge/APK-%D8%AA%D8%AD%D9%85%D9%8A%D9%84-2E7D32?style=for-the-badge&logo=android&logoColor=white" alt="Download APK" /></a> <a href="https://drawix.siwane.xyz"><img src="https://img.shields.io/badge/Website-Drawix_Pro-6750A4?style=for-the-badge" alt="Official website" /></a></p>
   <p><a href="https://github.com/elhizazi1/DrawixPRO/releases">الإصدارات</a> · <a href="https://github.com/elhizazi1/DrawixPRO/issues">الإبلاغ عن مشكلة</a> · <a href="CHANGELOG.md">سجل التغييرات</a></p>
 </div>
 
@@ -55,8 +55,7 @@
 - تحسين البطاقات والمسافات والتنقل وانتقالات RTL.
 - تحسين مصغرات المعرض وعرض الصور وأدوات المشاركة والحذف.
 - تصحيح تكرار تصريح Shizuku وتحسين توافق التقاط LSPosed.
-- إزالة إجراءات فتح المدير ونسخ التقرير التشخيصي المخصصة للتطوير من شاشة المحركات.
-- اختيار مخرجات APK وAAB يدويًا عبر GitHub Actions.
+- تبسيط واجهة التحكم بمحركات الالتقاط.
 
 ## ⚙️ محركات التقاط الشاشة الأربعة
 
@@ -79,7 +78,7 @@
 | الحد الأدنى | Android 7.0 (API 24) |
 | SDK المستهدف | 37 |
 
-1. افتح [صفحة الإصدار 1.1.0](https://github.com/elhizazi1/DrawixPRO/releases/tag/v1.1.0) وحمّل ملف APK الموقع عند توفره.
+1. افتح [صفحة الإصدار 1.1.0](https://github.com/elhizazi1/DrawixPRO/releases/tag/v1.1.0) وحمّل ملف APK الموقّع.
 2. ثبّت التطبيق واسمح بالتثبيت من المصدر المحدد إذا طلب النظام ذلك.
 3. فعّل الأدوات العائمة وامنح الصلاحيات اللازمة، واضبط محركًا متقدمًا عند الحاجة فقط.
 
@@ -87,47 +86,11 @@
 
 تعمل أدوات الرسم والالتقاط محليًا، ولا تُلتقط الصور باستمرار في وضع الخمول. تبقى الخدمة العائمة نشطة مع إشعار دائم أثناء تفعيلها؛ يمكن إيقافها عند انتهاء الاستخدام. يختلف استهلاك البطارية حسب الجهاز وطبيعة الاستخدام.
 
-راجع [دليل استهلاك البطارية وقياسه](docs/BATTERY.md) و[سياسة الخصوصية](privacy.html) و[سياسة الأمان](SECURITY.md). تخضع إعلانات الموقع والخطوط الخارجية لاعتبارات خصوصية منفصلة.
+راجع [دليل استهلاك البطارية وقياسه](docs/BATTERY.md) و[سياسة الخصوصية](privacy.html) و[سياسة الأمان](SECURITY.md).
 
-## 🛠️ البناء من المصدر
+## 🤝 الملاحظات والدعم
 
-توجد ملفات الموقع والبيانات والتوثيق في جذر المستودع. يُفترض وجود مصدر أندرويد داخل `DrawixPro/` بما فيه `app/` وملفات Gradle، بينما يحتوي أرشيف المصدر المستقل على هذه الملفات في جذره.
-
-المتطلبات: **JDK 17 وAndroid SDK 37**.
-
-من مجلد مصدر أندرويد:
-
-</div>
-
-```sh
-chmod +x gradlew
-./gradlew :app:assembleDebug :app:lintDebug
-./gradlew :app:assembleRelease :app:bundleRelease
-```
-
-<div dir="rtl" align="right">
-
-### GitHub Actions والتوقيع
-
-من Actions ← Android build ← Run workflow، اختر `debug` أو `release` أو `aab` أو `all` وأكّد التشغيل. لا يبدأ البناء تلقائيًا بمجرد رفع التغييرات.
-
-يتطلب توقيع APK إعداد أسرار المستودع `KEYSTORE_BASE64` و`KEYSTORE_PASSWORD` و`KEY_ALIAS` و`KEY_PASSWORD`. بدونها يكون APK الخاص بالإصدار غير موقع. يتطلب AAB أيضًا توقيع الإصدار قبل توزيعه عبر المتاجر. احتفظ بمفتاح التوقيع الأصلي لضمان توافق التحديثات.
-
-تتوقع بيانات الإصدار الوسم `v1.1.0` والملف الموقع `app-release-sign.apk`. يمكن إعادة تسمية مخرج البناء `DrawixPro-release-signed.apk` ليتوافق معه. إعداد البيانات وحده لا ينشر الإصدار.
-
-للتحقق من البيانات من جذر المستودع:
-
-</div>
-
-```sh
-python3 scripts/validate_release.py --source DrawixPro
-```
-
-<div dir="rtl" align="right">
-
-## 🤝 المساهمة
-
-عند الإبلاغ عن مشكلة، أرفق إصدار أندرويد وإصدار التطبيق والمحرك المستخدم وخطوات إعادة إنتاج المشكلة والأخطاء ذات الصلة. احذف البيانات الخاصة من الصور والسجلات. حافظ على نطاق التعديلات وشغّل اختبارات البناء وLint المناسبة. تُرسل البلاغات الأمنية بصورة خاصة وفق [سياسة الأمان](SECURITY.md).
+عند الإبلاغ عن مشكلة، أرفق إصدار أندرويد وإصدار التطبيق والمحرك المستخدم وخطوات إعادة إنتاج المشكلة والأخطاء ذات الصلة. احذف البيانات الخاصة من الصور والسجلات. تُرسل البلاغات الأمنية بصورة خاصة وفق [سياسة الأمان](SECURITY.md).
 
 ## 📄 الترخيص والتطوير
 
